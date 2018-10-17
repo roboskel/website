@@ -9,14 +9,14 @@ description: "Roboskel Website" # used by search engines
 theme_settings:
   # Meta
   title: "Roboskel Website" # blog's title
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/logo.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>Robotics activity of the Institute of Informatics and Telecommunications of NCSR &quot;Demokritos&quot;.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/robots-940x427.png
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
