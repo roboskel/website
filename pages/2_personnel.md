@@ -1,9 +1,10 @@
----
+--- 
 layout: page
-title: Personnel
+title : Personnel
 permalink: /personnel/
-feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [Personnel, Archive]
+subtitle: "The fantastic people of Roboskel" 
+feature-img: "assets/img/robots-940x427.png"
+tags: [Archive,Personnel]
 ---
 
-Personnel list
+{% include portfolio.html %}

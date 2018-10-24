@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/pexels/retro-school.jpeg"
 tags: [Research, Archive]
 ---
 
