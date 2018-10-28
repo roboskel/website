@@ -7,3 +7,11 @@
 {% if entry.fulltext %}
 <br><a href="{{entry.fulltext}}">Full text</a>
 {% endif %}
+
+{% if entry.zenodo %}
+<br>Zenodo: <a href="https://zenodo.org/record/{{entry.zenodo}}">{{entry.zenodo}}</a>
+{% endif %}
+
+{% if entry.springerlink %}
+<br><a href="http://link.springer.com/{{entry.springerlink}}">SpringerLink</a>
+{% endif %}
