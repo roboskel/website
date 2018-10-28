@@ -1,0 +1,9 @@
+{{reference}}
+
+{% if entry.doi %}
+<br>DOI: <a href="https://doi.org/{{entry.doi}}">{{entry.doi}}</a>
+{% endif %}
+
+{% if entry.fulltext %}
+<br><a href="{{entry.fulltext}}">Full text</a>
+{% endif %}
