@@ -105,6 +105,27 @@ collections:
     output: true
     permalink: /personnel/:name #changed from permalink: /:collection/:name
 
+#PUBLICATIONS:
+
+
+scholar:
+  style: assets/bibliography/mycslfile.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: assets/bibliography
+  bibliography: mybiblio
+  #bibliography_template: bibtemplate
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 # BUILD SETTINGS
 markdown: kramdown
