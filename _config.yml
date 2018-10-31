@@ -117,7 +117,7 @@ scholar:
   order: descending
 
   source: assets/bibliography
-  bibliography: mybiblio
+  bibliography: references
   bibliography_template: biblio
 
   replace_strings: true
