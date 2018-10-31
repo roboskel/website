@@ -112,12 +112,13 @@ scholar:
   style: assets/bibliography/mycslfile.csl
   locale: en
 
+  group_by: category
   sort_by: year
   order: descending
 
   source: assets/bibliography
   bibliography: mybiblio
-  #bibliography_template: bibtemplate
+  bibliography_template: biblio
 
   replace_strings: true
 
@@ -127,12 +128,13 @@ scholar:
 
   query: "@*"
 
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, 'jekyll/scholar']
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
