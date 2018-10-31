@@ -113,6 +113,8 @@ scholar:
   locale: en
 
   group_by: category
+  group_order: ascending
+  #type_order: [Robot Perception and Scene Understanding, Human-Robot Collaboration, Human-Robot Interaction, Robot Software Engineering, Applications]
   sort_by: year
   order: descending
 

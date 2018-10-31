@@ -222,6 +222,8 @@
     <layout>
       <!-- Citation Number 
       <text variable="citation-number" prefix="[" suffix="]"/> -->
+      <!-- Title 
+      <text macro="title" suffix=", "/>-->
       <!-- Author(s) -->
       <text macro="author" suffix=", "/>
       <!-- Rest of Citation -->
@@ -230,7 +232,6 @@
           <!-- Specific Formats -->
           <if type="article-journal">
             <group delimiter=", ">
-              <text macro="title"/>
               <text variable="container-title" font-style="italic" form="short"/>
               <text macro="locators"/>
               <text macro="page"/>
@@ -239,7 +240,6 @@
           </if>
           <else-if type="paper-conference">
             <group delimiter=", ">
-              <text macro="title"/>
               <text macro="event"/>
               <text macro="issued"/>
               <text macro="locators"/>
@@ -248,7 +248,7 @@
           </else-if>
           <else-if type="report">
             <group delimiter=", ">
-              <text macro="title"/>
+              
               <text macro="publisher"/>
               <group delimiter=" ">
                 <text variable="genre"/>
@@ -259,7 +259,6 @@
           </else-if>
           <else-if type="thesis">
             <group delimiter=", ">
-              <text macro="title"/>
               <text variable="genre"/>
               <text macro="publisher"/>
               <text macro="issued"/>
@@ -280,7 +279,6 @@
           <!-- Generic/Fallback Formats -->
           <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
             <group delimiter=", " suffix=". ">
-              <text macro="title"/>
               <text macro="locators"/>
             </group>
             <group delimiter=", ">
@@ -291,7 +289,6 @@
           </else-if>
           <else-if type="article-magazine article-newspaper broadcast interview manuscript map patent personal_communication song speech thesis webpage" match="any">
             <group delimiter=", ">
-              <text macro="title"/>
               <text variable="container-title" font-style="italic"/>
               <text macro="locators"/>
               <text macro="publisher"/>
@@ -301,7 +298,6 @@
           </else-if>
           <else-if type="chapter paper-conference" match="any">
             <group delimiter=", " suffix=", ">
-              <text macro="title"/>
               <group delimiter=" ">
                 <text term="in"/>
                 <text variable="container-title" font-style="italic"/>
@@ -317,7 +313,6 @@
           </else-if>
           <else>
             <group delimiter=", " suffix=". ">
-              <text macro="title"/>
               <text variable="container-title" font-style="italic"/>
               <text macro="locators"/>
             </group>
