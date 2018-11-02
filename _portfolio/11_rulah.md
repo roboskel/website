@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Rulah
-feature-img: "assets/img/portfolio/rulah.jpg"
-img: "assets/img/portfolio/rulah.jpg"
-tags: [Ipsum]
+permalink: /personnel/rulah
+feature-img: "assets/faces/rulah_wide.jpeg"
+img: "assets/faces/rulah.jpeg"
+tags: [personnel, robot]
 ---
 
 
