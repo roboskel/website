@@ -116,6 +116,48 @@ Informatics and Telecommunications, University of Athens.
 
 <tr>
 <td markdown="span">
+**Eleftheria Kotsoni (2016)**
+[Github](https://github.com/ekotsoni)
+[LinkedIn](https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125)
+</td>
+<td markdown="span">
+Eleftheria worked at Roboskel as an intern during her studies on
+Computer Science and Biomedical Informatics, University of Thessaly.
+Together with Elena Diamantidou and Dimitris Malios, she worked on
+the second version RoboMAE, the robot sensor data annotation tool.
+</td>
+</tr>
+
+<tr>
+<td markdown="span">
+**Elena Diamantidou (2016)**
+[Github](https://github.com/ElenaDiamantidou)
+[LinkedIn](https://www.linkedin.com/in/ediamantidou/)
+</td>
+<td markdown="span">
+Elena worked at Roboskel as an intern during her studies on
+Informatics and Telecommunications Engineering, University of Western Macedonia.
+Together with Eleftheria Kotsoni and Dimitris Malios, she worked on
+the second version RoboMAE, the robot sensor data annotation tool.
+</td>
+</tr>
+
+<tr>
+<td markdown="span">
+**Dimitrios Malios (2016)**
+[Github](https://github.com/dimimal)
+[LinkedIn](https://www.linkedin.com/in/dimitris-mallios)
+</td>
+<td markdown="span">
+Dimitris worked at Roboskel as an intern during his studies on
+Electronics and Communications Engineering, University of Thessaly.
+Together with Eleftheria Kotsoni and Elena Diamantidou, he worked on
+the second version RoboMAE, the robot sensor data annotation tool.
+</td>
+</tr>
+
+<tr>
+<td markdown="span">
 **Iordanis Chatzinikolaidis (2016)**
 </td>
 <td markdown="span">
@@ -169,7 +211,7 @@ studies, he worked at Roboskel as an intern.
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/rossides-sek.jpeg)
 <br/>
-**Charalambos Rossides (2013-2014)** and Sek
+**Charalambos Rossides (2013-2014)**
 <br/>
 [LinkedIn](https://uk.linkedin.com/in/charalambos-rossides-31b808124)
 [ResearchGate](https://www.researchgate.net/profile/Charalambos_Rossides)
@@ -313,8 +355,8 @@ in 2010, he was there during the early Roboskel days working on
 dialogue management and human-robot interaction together with
 [Indigo]({% link _portfolio/02_indigo.md %}) and
 [Stasinos]({% link _portfolio/00_konstant.md %}).
-<br/>
-Later, Dimitris went on to pursue a PhD on distributed query
+<br/><br/>
+Dimitris went on to pursue a PhD on distributed query
 processing at the University of Athens.
 <br/><br/>
 </td>
