@@ -23,7 +23,11 @@ Athens, 2010. He has been affiliated to NCSR-D since 2005, assuming
 scientific or technical management or team member roles in more than
 ten different Horizon 2020, FP7, and FP6 projects.
 
-[Github](https://github.com/stasinos),
-[Bitbucket](https://bitbucket.com/stasinos),
-[Gitlab](https://gitlab.com/stasinos),
-[LinkedIn](https://linkedin.com/in/stasinos)
+<a href="https://github.com/stasinos" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://bitbucket.com/stasinos" title="Follow him on Bitbucket">
+  <span class="fa-stack fa-lg"><i class="fa fa-bitbucket fa-stack-1x"></i></span>
+<a href="https://gitlab.com/stasinos" title="Follow him on GitLab">
+  <span class="fa-stack fa-lg"><i class="fa fa-gitlab fa-stack-1x"></i></span>
+<a href="https://linkedin.com/in/stasinos" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>

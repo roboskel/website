@@ -20,3 +20,6 @@ Since 2014, she is a research associate at SKEL, involved in the
 
 Her research interests vary from Autonomous Robot Navigation to
 Human-Robot Interaction and Human Motor Control and Learning.
+
+<a href="https://gr.linkedin.com/in/mariadagioglou" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>

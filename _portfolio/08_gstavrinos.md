@@ -8,4 +8,5 @@ tags: [personnel, human]
 
 Georgios Stavrinos...
 
-[Github](https://github.com/gstavrinos)
+<a href="https://github.com/gstavrinos" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>

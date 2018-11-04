@@ -15,6 +15,10 @@ tags: [personnel,robot,human]
 <tr>
 <td markdown="span">
 **Sokratis Beis (2018)**
+<br/>
+<a href="https://github.com/sokb" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+</a>
 </td>
 <td markdown="span">
 Sokratis worked at Roboskel as an intern during his studies on
@@ -35,6 +39,9 @@ Informatics and Telecommunications, University of Athens.
 <tr>
 <td markdown="span">
 **Ilia Malfa (2018)**
+<br/>
+<a href="https://github.com/Ilna" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
 Ilia worked at Roboskel as an intern during her studies.
@@ -43,10 +50,13 @@ Ilia worked at Roboskel as an intern during her studies.
 
 <tr>
 <td markdown="span">
-**Charalambia Stamouli (2018)**
+**Charis Stamouli (2018)**
+<br/>
+<a href="https://github.com/hstam" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
-Charalambia worked at Roboskel as an intern during her studies on
+Charis worked at Roboskel as an intern during her studies on
 Electrical and Computer Engineering, National Technical University of Athens.
 </td>
 </tr>
@@ -54,7 +64,8 @@ Electrical and Computer Engineering, National Technical University of Athens.
 <tr>
 <td markdown="span">
 **Georgios Kamaras (2018)**
-[Github](https://github.com/yorgosk)
+<a href="https://github.com/yorgosk" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
 Georgios received his BSc on Informatics and Telecommunications from
@@ -62,7 +73,7 @@ University of Athens.
 While at Roboskel, we worked with 
 [Rulah]({% link _portfolio/11_rulah.md %})
 to teach her how to climb steep inclines for his diploma thesis,
-**Path Planning for incline terrain using Embodied Artificial Intelligence**,
+*Path Planning for incline terrain using Embodied Artificial Intelligence*,
 supervised by [Stasinos]({% link _portfolio/00_konstant.md %}).
 </td>
 </tr>
@@ -81,8 +92,10 @@ up for Leo, should Leo run into trouble during the FHAG pilots.
 <td markdown="span">
 **Katerina Zamani (2015-2017)**
 <br/>
-[Github](https://github.com/kzama)
-[LinkedIn](https://gr.linkedin.com/in/katerina-zamani-a9bb9784)
+<a href="https://github.com/kzama" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://gr.linkedin.com/in/katerina-zamani-a9bb9784" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Katerina Zamani holds a BSc in Informatics and Telecommunications, and
@@ -90,7 +103,7 @@ a MSc in Advanced Information Systems from the University of Athens.
 Since March 2015 she was a research associate at NCSR-D, working on
 Machine Learning, Pattern Recognition and Similarity Learning issues.
 <br/><br/>
-At the end od 2017 Katerina moved on to pursue a carrier in industry.
+At the end of 2017 Katerina moved on to pursue a carrier in industry.
 </td>
 </tr>
 
@@ -117,8 +130,10 @@ Informatics and Telecommunications, University of Athens.
 <tr>
 <td markdown="span">
 **Eleftheria Kotsoni (2016)**
-[Github](https://github.com/ekotsoni)
-[LinkedIn](https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125)
+<a href="https://github.com/ekotsoni" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Eleftheria worked at Roboskel as an intern during her studies on
@@ -131,8 +146,10 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <tr>
 <td markdown="span">
 **Elena Diamantidou (2016)**
-[Github](https://github.com/ElenaDiamantidou)
-[LinkedIn](https://www.linkedin.com/in/ediamantidou/)
+<a href="https://github.com/ElenaDiamantidou" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://www.linkedin.com/in/ediamantidou" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Elena worked at Roboskel as an intern during her studies on
@@ -145,8 +162,11 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <tr>
 <td markdown="span">
 **Dimitrios Malios (2016)**
-[Github](https://github.com/dimimal)
-[LinkedIn](https://www.linkedin.com/in/dimitris-mallios)
+<a href="https://github.com/dimimal" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+</a>
+<a href="https://www.linkedin.com/in/dimitris-mallios" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Dimitris worked at Roboskel as an intern during his studies on
@@ -202,8 +222,8 @@ Roboskel as an intern.
 **Georgios Kalpaktsoglou (2013-2014)**
 </td>
 <td markdown="span">
-Georgios BSc pn Mechanical Engineering from EI Crete. During his
-studies, he worked at Roboskel as an intern.
+Georgios received his BSc on Mechanical Engineering from TEI Crete.
+During his studies, he worked at Roboskel as an intern.
 </td>
 </tr>
 
@@ -213,8 +233,8 @@ studies, he worked at Roboskel as an intern.
 <br/>
 **Charalambos Rossides (2013-2014)**
 <br/>
-[LinkedIn](https://uk.linkedin.com/in/charalambos-rossides-31b808124)
-[ResearchGate](https://www.researchgate.net/profile/Charalambos_Rossides)
+<a href="https://uk.linkedin.com/in/charalambos-rossides-31b808124" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Charalambos Rossides graduated form Electrical and Computer
@@ -237,7 +257,8 @@ Control at the Technical University Twente, the Netherlands.
 ![image]({{ site.baseurl }}/assets/faces/sapountzi.jpeg)
 **Athanasia Sapountzi (2013-2014)**
 <br/>
-[LinkedIn](https://www.linkedin.com/in/athanasia-sapountzi-a29a9087/)
+<a href="https://www.linkedin.com/in/athanasia-sapountzi-a29a9087" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Athanasia Sapountzi participated in the Multimodal Speaker Recognition
@@ -273,7 +294,10 @@ an intern.
 <br/>
 **Andreas Lydakis (2013-2015)**
 <br/>
-[LinkedIn](https://gr.linkedin.com/in/andreaslydakis)
+<a href="https://github.com/AndLydakis" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://gr.linkedin.com/in/andreaslydakis" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Andreas Lydakis graduated from the Computer Engineering & Informatics
@@ -321,7 +345,8 @@ until his retirement in 2017.
 <br/>
 **Theodoros Varvakoudas (2012)**
 <br/>
-[LinkedIn](https://uk.linkedin.com/in/theo-varvadoukas)
+<a href="https://uk.linkedin.com/in/theo-varvadoukas" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Theodoros received his BSc in Informatics and Telecommunications from
@@ -345,6 +370,10 @@ to work in the industry.
 ![image]({{ site.baseurl }}/assets/faces/dbilid.jpeg)
 <br/>
 **Dimitris Bilidas (2011)**
+<br/>
+<a href="https://github.com/dbilid" title="Follow him on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+</a>
 </td>
 <td markdown="span">
 Dimitris obtained his BSc in Informatics from University of Piraeus
@@ -356,7 +385,7 @@ dialogue management and human-robot interaction together with
 [Indigo]({% link _portfolio/02_indigo.md %}) and
 [Stasinos]({% link _portfolio/00_konstant.md %}).
 <br/><br/>
-Dimitris went on to pursue a PhD on distributed query
+Dimitris moved on to pursue a PhD on distributed query
 processing at the University of Athens.
 <br/><br/>
 </td>
