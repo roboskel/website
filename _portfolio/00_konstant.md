@@ -2,7 +2,7 @@
 layout: post
 title: Stasinos Konstantopoulos
 permalink: /personnel/konstant
-img: "assets/faces/konstant.jpeg"
+img: "assets/faces/konstant-reframed.png"
 tags: [personnel, human]
 ---
 

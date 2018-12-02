@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maria Dagioglou
-img: "assets/img/portfolio/ninja.png"
+img: "assets/faces/misc.png"
 permalink: /personnel/mdagiogl
 tags: [personnel, human]
 ---

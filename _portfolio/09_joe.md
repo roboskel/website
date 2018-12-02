@@ -2,7 +2,7 @@
 layout: post
 title: Joe
 permalink: /personnel/joe
-img: "assets/faces/joe.jpeg"
+img: "assets/faces/joe-reframed.png"
 tags: [personnel, robot]
 ---
 

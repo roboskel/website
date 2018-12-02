@@ -2,7 +2,7 @@
 layout: post
 title: Raphaelo
 permalink: /personnel/rapha
-img: "assets/faces/rapha_650.jpeg"
+img: "assets/faces/rapha-reframed.png"
 tags: [personnel, robot]
 ---
 

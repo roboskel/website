@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Georgios Stavrinos
-img: "assets/img/portfolio/ninja.png"
+img: "assets/faces/stavrinos.png"
 permalink: /personnel/gstavrinos
 tags: [personnel, human]
 ---

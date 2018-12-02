@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Katerina Oikonomou
-img: "assets/faces/oikonomou.png"
+img: "assets/faces/oikonomou-reframed.png"
 permalink: /personnel/oikonomou
 tags: [personnel, human]
 ---

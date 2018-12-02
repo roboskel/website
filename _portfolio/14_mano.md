@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mano
-img: "assets/img/portfolio/ninja.png"
+feature-img: "assets/faces/manos.jpg"
+img: "assets/faces/manos-reframed.png"
 permalink: /personnel/mano
 tags: [personnel,robot]
 ---

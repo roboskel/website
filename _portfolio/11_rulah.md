@@ -3,7 +3,7 @@ layout: post
 title: Rulah
 permalink: /personnel/rulah
 feature-img: "assets/faces/rulah_wide.jpeg"
-img: "assets/faces/rulah_full_900_650.jpeg"
+img: "assets/faces/rulah-reframed.png"
 tags: [personnel, robot]
 ---
 
