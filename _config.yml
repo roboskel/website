@@ -108,7 +108,9 @@ collections:
   portfolio:
     output: true
     permalink: /personnel/:name #changed from permalink: /:collection/:name
-
+  project:
+    output: true
+    permalink: /projects/:name
 #PUBLICATIONS:
 
 
