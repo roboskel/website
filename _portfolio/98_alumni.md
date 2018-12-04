@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Former Members
-img: "assets/faces/former-members.png"
+img: "assets/faces/former-members-2.png"
 permalink: /personnel/gone
 tags: [personnel,robot,human]
 ---

@@ -6,7 +6,8 @@ img: "assets/faces/konstant-reframed.png"
 tags: [personnel, human]
 ---
 
-![image]({{ site.baseurl }}/{{ page.img }})
+![Inside post photo](/assets/faces/konstant.jpeg)
+
 
 Stasinos Konstantopoulos leads the Roboskel activity. Stasinos
 holds an MEng in Computer Engineering and Informatics from the

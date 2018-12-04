@@ -6,6 +6,8 @@ permalink: /personnel/mdagiogl
 tags: [personnel, human]
 ---
 
+
+
 Maria Dagioglou holds a diploma in Electrical and Computer Engineering
 (Democritus University of Thrace, Xanthi, Greece, 2007), a MSc in
 Biomedical Engineering (TU Delft, the Netherlands, 2010) and a PhD in

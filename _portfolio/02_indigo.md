@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Indigo
-permalink: /personnel/indigo
 img: "assets/faces/indigo-reframed.jpeg"
 tags: [personnel, robot]
 ---
 
-![image]({{ site.baseurl }}/{{ page.img }})
+![Inside post photo](/assets/faces/indigo.jpeg)
 
 Indigo is a Neobotix ME-470. He was built in 2007 in the context if
 FP6-IST Indigo. He originally worked at Hellenic Cosmos, the museum of

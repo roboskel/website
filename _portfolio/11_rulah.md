@@ -2,11 +2,12 @@
 layout: post
 title: Rulah
 permalink: /personnel/rulah
-feature-img: "assets/faces/rulah_wide.jpeg"
+
 img: "assets/faces/rulah-reframed.png"
 tags: [personnel, robot]
 ---
 
+![Inside post photo](/assets/faces/rulah_wide.jpeg)
 
 Rulah is a DrRobot Jaguar 4x4 robot and the first female robot that
 joined Roboskel in the 7th of January 2016. When she first arrived in 

@@ -6,7 +6,7 @@ img: "assets/faces/rapha-reframed.png"
 tags: [personnel, robot]
 ---
 
-![image]({{ site.baseurl }}/{{ page.img }})
+![Inside post photo](/assets/faces/rapha_650.jpeg)
 
 Raphaelo "Rapha" is the second turtlebot that joined Roboskel in the
 29th of July 2016. He worked on the Horizon 2020 project
