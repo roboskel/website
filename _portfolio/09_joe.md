@@ -2,11 +2,12 @@
 layout: post
 title: Joe
 permalink: /personnel/joe
-img: "assets/faces/joe.jpeg"
+img: "assets/faces/joe-reframed.png"
 tags: [personnel, robot]
 ---
 
-![image]({{ site.baseurl }}/{{ page.img }})
+![Inside post photo](/assets/faces/joe.jpeg)
+
 
 Michelangelo (or "Joe" to his friends) is the first Turtlebot2 to join
 Roboskel, on 18th of November 2015. He worked for the Horizon 2020

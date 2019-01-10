@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Katerina Oikonomou
-img: "assets/faces/oikonomou.png"
+img: "assets/faces/oikonomou-reframed.png"
 permalink: /personnel/oikonomou
 tags: [personnel, human]
 ---
+
+![Inside post photo](/assets/faces/oikonomou_full.png)
+
 
 Katerina Oikonomou holds a BSc in Physics, University of Patras,
 having followed the informatics, electronics, and signal processing

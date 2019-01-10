@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Honorary Members
-img: "assets/img/portfolio/ninja.png"
+img: "assets/faces/honorary-members.png"
 permalink: /personnel/emeriti
 tags: [personnel,human]
 ---

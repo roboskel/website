@@ -1,4 +1,4 @@
-.portfolio-link {
+.project-link {
     display: block;
     position: relative;
     margin: 0 auto;
@@ -40,13 +40,13 @@
     }
 }
 
-.portfolio-grid {
+.project-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 
 }
-.portfolio-cell {
+.project-cell {
   flex: 0 0 32%;
   margin-bottom: 10px;
 }
