@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chorus 
+title: HR-CHORRUS 
 img: "assets/faces/misc.png"
 permalink: /project/chorus
 tags: [projects, human-robot collaboration]
