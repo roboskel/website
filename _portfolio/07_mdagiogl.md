@@ -8,20 +8,15 @@ tags: [personnel, human]
 
 
 
-Maria Dagioglou holds a diploma in Electrical and Computer Engineering
-(Democritus University of Thrace, Xanthi, Greece, 2007), a MSc in
-Biomedical Engineering (TU Delft, the Netherlands, 2010) and a PhD in
-Psychology (Predictive Sensory Motor (PRISM) Lab, School of
-Psychology, Univeristy of Birmingham, UK, 2014). During her M.Sc.
-thesis, she collaborated with the Department of Neuroscience of
-Erasmus Medical Centre. Between 2010 – 2013, she was employed as Marie
-Curie Fellow (ITN project “ Cerebellum C7”) in the PRISM lab.
+Maria Dagioglou studied Electrical and Computer Engineering (Democritus University of Thrace, Greece, 2007). 
+She holds a MSc in Biomedical Engineering (TU Delft, the Netherlands, 2010) and a PhD in Psychology (University of Birmingham, UK, 2014). During her PhD, she was employed as a Marie Curie Fellow (2010-2013, ITN “C7: Cerebellar-Cortical Control: Cells, Circuits, Computation, and Clinic”) at the Predictive Sensory Motor (PRISM) Lab (School of Psychology,UoB, UK) where she studied on human motor control and learning. Since April 2014, she is a research associate at NCSR-D, participating at the RoboSKEL activity and assuming team member roles in national and EU projects. She is currently a ‘Stavros Narchos foundation’ industrial post-doc fellow working on robotics applications for human-robot collaboration at shared working spaces.
 
-Since 2014, she is a research associate at SKEL, involved in the
-"Synaisthisis" project and other activities of the lab.
-
-Her research interests vary from Autonomous Robot Navigation to
-Human-Robot Interaction and Human Motor Control and Learning.
+Her research interests vary from robotic applications for 
+Human-Robot Collaboration to Human Motor Control and Learning.
 
 <a href="https://gr.linkedin.com/in/mariadagioglou" title="Follow her on LinkedIn">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+
+  
+  
+
