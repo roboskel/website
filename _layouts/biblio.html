@@ -1,0 +1,38 @@
+<b>{{entry.title}}</b>
+
+<br>
+
+{{reference}}
+
+<br>
+
+
+		{% if entry.doi %}
+		
+    		DOI: <a href="https://doi.org/{{entry.doi}}">{{entry.doi}}</a> &nbsp; &nbsp;
+		
+	 	{% endif %}	
+
+		
+	    {% if entry.fulltext %}
+	    
+			<a href="{{entry.fulltext}}">Full text</a> &nbsp;&nbsp;
+		{% endif %}
+
+		{% if entry.zenodo %}
+		
+			Zenodo: <a href="https://zenodo.org/record/{{entry.zenodo}}">{{entry.zenodo}}</a> &nbsp; &nbsp;
+		
+		{% endif %}
+
+		{% if entry.springerlink %}
+		
+			<a href="http://link.springer.com/{{entry.springerlink}}">SpringerLink</a>	&nbsp; &nbsp;
+		
+		{% endif %}
+
+<br>
+	
+
+
+

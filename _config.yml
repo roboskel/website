@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/"
+baseurl: ""
 url: "https://roboskel.github.io"
 title: Roboskel # site's title
 description: "Roboskel Website" # used by search engines
@@ -16,7 +16,8 @@ theme_settings:
   # Meta
   title: "Roboskel Website" # blog's title
   avatar: assets/img/logo.png
-  favicon: assets/favicon.ico
+  favicon: favicon.ico
+  gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text:
@@ -87,8 +88,16 @@ theme_settings:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
+  # Post navigation
+  post_navigation: true
+
+  # Controls whether in the portfolio, the item titles are shown
+  # when hovering over the images or as captions under the images
+  show_caption: true
+  hover_caption: false
+  
 # PAGINATION
-paginate: 5
+paginate: 15
 paginate_path: "blog/page:num"
 
 # AUTHORS
@@ -106,7 +115,34 @@ authors:
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:name
+    permalink: /personnel/:name #changed from permalink: /:collection/:name
+  project:
+    output: true
+    permalink: /projects/:name
+#PUBLICATIONS:
+
+
+scholar:
+  style: assets/bibliography/mycslfile.csl
+  locale: en
+
+  group_by: category
+  group_order: ascending
+  #type_order: [Robot Perception and Scene Understanding, Human-Robot Collaboration, Human-Robot Interaction, Robot Software Engineering, Applications]
+  sort_by: year
+  order: descending
+
+  source: assets/bibliography
+  bibliography: references
+  bibliography_template: biblio
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -114,8 +150,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
-          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
-# theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+plugins: [jekyll-paginate, jekyll-seo-tag, 'jekyll/scholar']
+#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
