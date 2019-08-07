@@ -2,7 +2,7 @@
 layout: page
 title : Projects
 permalink: /projects/
-subtitle: "..." 
+subtitle: " " 
 feature-img: "assets/img/robots-940x427.png"
 tags: [Archive, Projects]
 ---
