@@ -11,6 +11,7 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 * Bootstrap : [Get Bootstrap](http://getbootstrap.com/)
 * Search feature : [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 * Math Rendering : [KateX](https://github.com/Khan/KaTeX)
+* Nice fonts : [Font Awesome](https://fontawesome.com/), [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro), [Pacifico](https://fonts.google.com/specimen/Pacifico?selection.family=Pacifico) 
 * Seo Tags : [Jekyll-seo-tag](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
 * Syntax Highlighting: Easily customisable [Base16](https://github.com/chriskempson/base16)
 * Free of rights images from [pexels](https://www.pexels.com/)
@@ -27,7 +28,8 @@ A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chan
 4. [Layout](https://github.com/Sylhare/Type-on-Strap#layout)
 5. [Feature pages](https://github.com/Sylhare/Type-on-Strap#feature-pages)
 6. [Template as a Gem](https://github.com/Sylhare/Type-on-Strap#Template-as-a-Gem)
-7. [License](https://github.com/Sylhare/Type-on-Strap#license)
+7. [Advanced](https://github.com/Sylhare/Type-on-Strap#advanced)
+8. [License](https://github.com/Sylhare/Type-on-Strap#license)
 
 ## Usage
 
@@ -53,7 +55,7 @@ jekyll-theme-basically-basic
 ├── assets
 |  ├── js	               # theme javascript, Katex, jquery, bootstrap, jekyll search, 
 |  ├── css                     # isolated Bootstrap, font-awesome, katex and main css
-|  ├── fonts		       # Font-Awesome, Glyphicon, and other fonts
+|  ├── fonts		       # Font-Awesome, and other fonts
 |  └── img		       # Images used for the template
 ├── pages
 |   ├── 404.md		       # To be displayed when url is wrong
@@ -94,15 +96,15 @@ Please configure this  before using the theme.
 
 ### Meta and Branding
 
-Meta variables hold basic information about your Jekyll site which will be used throughout the site and as meta properties for search engines, browsers, and the site's RSS feed.
+Meta variables hold basic information about your Jekyll site which will be used throughout the site 
+and as meta properties for search engines, browsers, and the site's RSS feed.
 
 Change these variables in `_config.yml`:
 
 ```yml
   theme_settings:
     title: My Jekyll Blog                 # Name of website
-    avatar: assets/img/triangular.svg     # Path of avatar image, to be displayed in the theme's header
-    gravatar: f98....6bfc                 # MD5 hash of your email address
+    avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the theme's header
     description: My blog posts            # Short description, primarily used by search engines
 ```
 
@@ -115,7 +117,7 @@ Customize your site header/footer with these variables in `_config.yml`:
 ```yml
   theme_settings:
     header_text: Welcome to my Jekyll blog
-    header_text_feature_image: assets/img/sample3.png
+    header_feature_image: assets/img/sample3.png
     footer_text: Copyright 2017
 ```
 
@@ -147,11 +149,14 @@ Jekyll works with [liquid](https://shopify.github.io/liquid/) tags usually repre
 {{ liquid.tag | filter }}
 ```
 
-These are useful to render your jekyll files. You can learn more about them on [shopify's doc](https://help.shopify.com/themes/liquid/basics)
+These are useful to render your jekyll files. 
+You can learn more about them on [shopify's doc](https://help.shopify.com/themes/liquid/basics)
 
 ### Footer's icons
 
-Display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the footer. All icon variables should be your username enclosed in quotes (e.g. "username") in `_config.yml`, except for the following variables:
+Display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the footer. 
+All icon variables should be your username enclosed in quotes (e.g. "username") in `_config.yml`, 
+except for the following variables:
 
 ```yml
   theme_settings:
@@ -166,7 +171,8 @@ Display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-A
 Optionally, if you have a [Disqus](https://disqus.com/) account, you can show a 
 comments section below each post.
 
-To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to your project's `_config.yml` file:
+To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) 
+to your project's `_config.yml` file:
 
 ```yml
   theme_settings:
@@ -192,7 +198,8 @@ When KateX is set in `_config.yml`:
      katex: true # to Enable it
 ```
 
-You can then wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable in `_config.yml` to `true` for math typesetting.
+You can then wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable 
+in `_config.yml` to `true` for math typesetting.
 
 For inline math typesetting, type your math expression on the *same line* as your content. For example:
 
@@ -210,7 +217,9 @@ $$
 
 ### Post excerpt
 
-The [excerpt](https://jekyllrb.com/docs/posts/#post-excerpts) are the first lines of an article that is display on the blog page. The length of the excerpt has a default of around `250` characters and can be manually set in the post using:
+The [excerpt](https://jekyllrb.com/docs/posts/#post-excerpts) are the first lines of an article that is display on the blog page. 
+The length of the excerpt has a default of around `250` characters and can be manually set in the post using:
+
 ```yml
 ---
 layout: post
@@ -226,7 +235,8 @@ some text in the excerpt
 The html is stripped out of the excerpt so it only display text.
 
 ## Layout
-Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
+Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). 
+Non-standard features are documented below.
 
 ### Layout: Post
 
@@ -239,14 +249,20 @@ title: Hello World                                # Title of the page
 hide_title: true                                  # Hide the title when displaying the post, but shown in lists of posts
 feature-img: "assets/img/sample.png"              # Add a feature-image to the post
 thumbnail: "assets/img/thumbnail/sample-th.png"   # Add a thumbnail image on blog view
+color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
 bootstrap: true                                   # Add bootstrap to the page
 tags: [sample, markdown, html]
 ---
 ```
 
-With `thumbnail`, you can add a smaller image than the `feature-img`. If you don't want/have a thumbnail you can still use the same image as the feature one.
+With `thumbnail`, you can add a smaller image than the `feature-img`. 
+If you don't want/have a thumbnail you can still use the same image as the feature one.
 
-So the **bootstrap** is not mandatory and is only usefull if you want to add bootstrapped content in your page. It will respect the page and theme layout, mind the padding on the sides.
+The background used when `color` is set comes from `lineart.png` from [xukimseven](https://github.com/xukimseven) 
+you can edit it in the config file (`theme_settings > color_image`). If you want another one, put it in `/assets/img` as well. 
+
+The **bootstrap** is not mandatory and is only useful if you want to add bootstrapped content in your page. 
+It will respect the page and theme layout, mind the padding on the sides.
 
 ### Layout: Page
 
@@ -260,11 +276,13 @@ subtitle: "This is a subtitle"
 feature-img: "assets/img/sample.png" 
 permalink: /about.html               # Set a permalink your your page
 hide: true                           # Prevent the page title to appear in the navbar
+icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html]
 ---
 ```
 
-The hide only hides your page from the navigation bar, it is however still generated and can be access through its link. Use the `_draft` folder to keep files from being generated on your site.
+The hide only hides your page from the navigation bar, it is however still generated and can be access through its link. 
+Use the `_draft` folder to keep files from being generated on your site.
 
 ### Layout: Default
 
@@ -272,7 +290,8 @@ This layout includes the head, navigation bar and footer around your content.
 
 ## Feature pages
 
-All feature pages besides the "home" one are stored in the `page` folder, they will appear in the navigation bar unless you set `Hide: true` in the front matter. 
+All feature pages besides the "home" one are stored in the `page` folder, 
+they will appear in the navigation bar unless you set `Hide: true` in the front matter. 
 
 Here are the documentation for the other feature pages that can be added through `_config.yml`.
 
@@ -281,7 +300,8 @@ Here are the documentation for the other feature pages that can be added through
 This page is the used as the home page of the template (in the `index.html`). It displays the list of article in `_posts`.
 You can use this layout in another page (adding a title to it will make it appear in the navigation bar).
 
-The recommended width and height for the home picture is width:`2484px;` and height:`1280px` which are the dimension of the actual picture for it to be rolling down as you scroll the page. 
+The recommended width and height for the home picture is width:`2484px;` and height:`1280px` 
+which are the dimension of the actual picture for it to be rolling down as you scroll the page. 
 
 ### Portfolio
 
@@ -297,11 +317,30 @@ title : Portfolio
 {% include portfolio.html %}
 ```
 
+#### Portofolio posts
+
+You can format the portfolio posts in the `_portfolio` folder using the `post layout`. Here are little explaination on some of the possible feature you can use and what they will do.
+
+If you decide to use a date, please be sure to use one that can be parsed such as `yyyy-mm-dd`. You can see more format example on the demo posts that are available for the theme:
+
+```yml
+---
+layout: post
+title: Circus				       # Title of the portfolio post
+feature-img: "assets/img/portfolio/cake.png"   # Will display the image in the post
+img: "assets/img/portfolio/cake.png"           # Will display the image in the portfolio page
+date: 2019-07-25		 	       # Not mandatory, however needs to be in date format to display the date
+---
+```
+
 ### Gallery
 
-You can create a gallery using [Masonry JS](https://masonry.desandro.com/) which will placing the pictures in optimal position based on available vertical space. You need to specify the `gallery_path` which will be used to find the pictures to render. It will take all of the picture under that directory. Then use the `include` to add it in your page. 
+You can create a gallery using [Masonry JS](https://masonry.desandro.com/) which will placing the pictures in optimal position 
+based on available vertical space. 
+You need to specify the `gallery_path` which will be used to find the pictures to render. 
+It will take all of the picture under that directory. Then use the `include` to add it in your page. 
 
-```
+```yml
 ---
 layout: page
 title: Gallery
@@ -314,22 +353,25 @@ gallery: "assets/img/pexels"
 
 ### Search
 
-The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search) there is a `search.json` file that will create a list of all of the site posts, pages and portfolios. 
+The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search) 
+there is a `search.json` file that will create a list of all of the site posts, pages and portfolios. 
 
 Then there's a `search.js` displaying the formatted results entered in the `search.html` page.
 
+The search page can be hidden with the `hide` option. You can remove the icon by removing `icon`:
 
-The search page can be enable/disable in the navigation bar through the `_config.yml` via:
 ```yml
-special_page:
-    search: 
-      icon: "search"
-      enabled: true
+---
+layout: search
+title: Search
+icon: "search"
+---
 ```
 
 ### Tags
 
-Tags should be placed between `[]` in your post metadata. Separate each tag with a comma. Tags are recommended for posts and portfolio items.
+Tags should be placed between `[]` in your post metadata. Separate each tag with a comma. 
+Tags are recommended for posts and portfolio items.
 
 For example:
 
@@ -344,18 +386,12 @@ tags: [sample, markdown, html]
 > Tags are case sensitive `Tag_nAme` ≠ `tag_name`
 
 All the tags will be listed in `tags.html` with a link toward the pages or posts.
-The tags page can be enable/disable in the navigation bar through the `_config.yml` via:
-
-```yml
-special_page:
-    tags: 
-      icon: "tags"
-      enabled: true
-```
+The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
 
 ## Template as a Gem
 
-You can use Type-on-strap as a [gem](https://rubygems.org/gems/type-on-strap). Checkout an example in the [gem-demo branch](https://github.com/Sylhare/Type-on-Strap/tree/gem-demo).
+You can use Type-on-strap as a [gem](https://rubygems.org/gems/type-on-strap). 
+Checkout an example in the [gem-demo branch](https://github.com/Sylhare/Type-on-Strap/tree/gem-demo).
 To make the feature pages available in from the gem I created them as layouts that can be invoked in the pages folder.
 
 So if you're using the template as a theme, Make sure you have:
@@ -366,6 +402,31 @@ So if you're using the template as a theme, Make sure you have:
 
 Now you can use any theme gem with github pages : [29/11/2017 Github Pages Broadcast](https://github.com/blog/2464-use-any-theme-with-github-pages)
 
+## Advanced
+
+### Minimizing and optimizing: css, js and images
+
+Before you need to have `node` and `npm` installed:
+- Windows: https://nodejs.org/
+- Ubuntu/Debian: `apt-get install nodejs npm libgl1 libxi6`
+- Fedora (dnf) / RHEL/CentOS (yum): `dnf install node npm libglvnd-glx libXi`
+
+Then you need to install [`gulp-cli`](https://gulpjs.com/) and its dependencies:
+```shell
+cd assets/
+sudo npm install gulp-cli -g
+npm install
+```
+
+**Now, whenever you want to minify and optimize, run:**
+```shell
+cd assets/
+gulp default
+# tip: run a git status to see the changes
+git status
+```
+
 ## License
 
+There are some fonts and component on this theme going under the MIT licence as well in this theme.
 [The MIT License (MIT)](https://raw.githubusercontent.com/Sylhare/Type-on-Strap/master/LICENSE)

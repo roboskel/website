@@ -4,6 +4,12 @@ url: "https://roboskel.github.io"
 title: Roboskel # site's title
 description: "Roboskel Website" # used by search engines
 
+defaults:
+  - 
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: assets/img/triangle.png # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -14,11 +20,11 @@ theme_settings:
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: > #two or three lines to describe your site
+  header_text:
      <p>Robotics activity of the Institute of Informatics and Telecommunications of NCSR &quot;Demokritos&quot;.</p>
   header_text_feature_image: assets/img/robots-940x427.png
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -44,12 +50,11 @@ theme_settings:
   vimeo:
   wordpress:
   youtube:
-  
+
   # Sharing options
   share_buttons:
     facebook: true
     twitter: true
-    google_plus:
     tumblr:
     pinterest:
     pocket:
@@ -62,15 +67,7 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  
-  special_page:
-    search: 
-      icon: "search"
-      enabled: true
-    tags:
-      icon: "tags"
-      enabled: true
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -83,12 +80,13 @@ theme_settings:
   str_previous_post: "Previous post"
   str_next_page: "Next"
   str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Post navigation
+  post_navigation: true
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: true
@@ -102,6 +100,16 @@ theme_settings:
 paginate: 15
 paginate_path: "blog/page:num"
 
+# AUTHORS
+authors:
+  mhagnumdw: # author-id
+    name: MhagnumDw
+    avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
+    url: 
+  sylhare:
+    name: Sylhare
+    avatar: "assets/img/avatars/sylhare_avatar.png"
+    url: "https://github.com/sylhare"
 
 # PORTFOLIO
 collections:
@@ -135,7 +143,6 @@ scholar:
   details_link:   Details
 
   query: "@*"
-
 
 # BUILD SETTINGS
 markdown: kramdown
