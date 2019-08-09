@@ -7,6 +7,7 @@
 # Byte-compiled / optimized / DLL files
 *.manifest
 *.spec
+.bundle/
 
 # Jekyll dev or build files
 _site/*
