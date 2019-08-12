@@ -19,7 +19,9 @@ Gem::Specification.new do |spec|
     
   spec.add_runtime_dependency "jekyll", "~> 3.8", ">= 3.8.5"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~>2.6"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
+  spec.add_runtime_dependency "jekyll-scholar", "~> 5.14"
+  spec.add_runtime_dependency "unicode"
 
   spec.add_development_dependency "bundler", "~> 2.0", ">= 2.0.1"
   spec.add_development_dependency "rake", "~> 10.0"
