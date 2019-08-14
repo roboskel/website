@@ -83,6 +83,11 @@ theme_settings:
   # Post navigation
   post_navigation: true
 
+  # Controls whether in the portfolio, the item titles are shown
+  # when hovering over the images or as captions under the images
+  show_caption: true
+  hover_caption: false
+
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
@@ -103,6 +108,9 @@ authors:
 
 # PORTFOLIO
 collections:
+  people:
+    output: true
+    permalink: /:collection/:name
   portfolio:
     output: true
     permalink: /:collection/:name
@@ -113,7 +121,7 @@ scholar:
 
   group_by: category
   group_order: ascending
-  #type_order: [Robot Perception and Scene Understanding, Human-Robot Collaboration, Human-Robot Interaction, Robot Software Engineering, Applications]
+  #type_order: [Computer Science, Typesetting]
   sort_by: year
   order: descending
 
