@@ -19,6 +19,8 @@ tags: [personnel,robot,human]
 <a href="https://github.com/sokb" title="Follow him on GitHub">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
+<a href="https://linkedin.com/in/sokratis-beis" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Sokratis worked at Roboskel as an intern during his studies on
@@ -64,6 +66,7 @@ Electrical and Computer Engineering, National Technical University of Athens.
 <tr>
 <td markdown="span">
 **Georgios Kamaras (2018)**
+<br/>
 <a href="https://github.com/yorgosk" title="Follow him on GitHub">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
@@ -80,11 +83,15 @@ supervised by [Stasinos]({% link _portfolio/00_konstant.md %}).
 
 <tr>
 <td markdown="span">
-**Leonardo and Donnie (2017)**
+**Leonardo and Donnie (2017-2018)**
 </td>
 <td markdown="span">
-Leonardo is the third RADIO prototype. Donatello (Donnie) is backing
-up for Leo, should Leo run into trouble during the FHAG pilots.
+Leonardo is the third RADIO Robot prototype, and worked for the final
+RADIO pilots at <em>Hospital Asil de Granollers</em>, Spain
+during 2017-2018. Donatello (Donnie) was backing up for Leo, should
+Leo run into trouble during the pilots, but things turned out really
+well and he was never called into action. Both Leo and Donnie were
+retired when the FHAG pilots finished in early 2018.
 </td>
 </tr>
 
@@ -130,6 +137,7 @@ Informatics and Telecommunications, University of Athens.
 <tr>
 <td markdown="span">
 **Eleftheria Kotsoni (2016)**
+<br/>
 <a href="https://github.com/ekotsoni" title="Follow her on GitHub">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 <a href="https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125" title="Follow her on LinkedIn">
@@ -146,6 +154,7 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <tr>
 <td markdown="span">
 **Elena Diamantidou (2016)**
+<br/>
 <a href="https://github.com/ElenaDiamantidou" title="Follow her on GitHub">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 <a href="https://www.linkedin.com/in/ediamantidou" title="Follow her on LinkedIn">
@@ -162,6 +171,7 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <tr>
 <td markdown="span">
 **Dimitrios Malios (2016)**
+<br/>
 <a href="https://github.com/dimimal" title="Follow him on GitHub">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
@@ -209,6 +219,9 @@ and
 <tr>
 <td markdown="span">
 **Marinos Galiatsatos (2015)**
+<br/>
+<a href="https://www.linkedin.com/in/marinos-galiatsatos-3968b2147" title="Follow him on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
 Marinos received his BSc in Informatics from Athens University of

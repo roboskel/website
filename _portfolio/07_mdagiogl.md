@@ -14,9 +14,10 @@ She holds a MSc in Biomedical Engineering (TU Delft, the Netherlands, 2010) and 
 Her research interests vary from robotic applications for 
 Human-Robot Collaboration to Human Motor Control and Learning.
 
+<a href="https://github.com/mdagiogl" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github
+  fa-stack-1x"></i></span>
+<a href="https://bitbucket.com/mdagiogl" title="Follow her on Bitbucket">
+  <span class="fa-stack fa-lg"><i class="fa fa-bitbucket fa-stack-1x"></i></span>
 <a href="https://gr.linkedin.com/in/mariadagioglou" title="Follow her on LinkedIn">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
-
-  
-  
-

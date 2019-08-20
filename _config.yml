@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://roboskel.github.io"
 title: Roboskel # site's title
-description: "Roboskel Website" # used by search engines
+description: "Roboskel robotics activity, Institute of Informatics and Telecommunications, NCSR Demokritos" # used by search engines
 
 defaults:
   - 
@@ -30,13 +30,12 @@ theme_settings:
   rss: true  # Make sure you created a feed.xml with feed.xml layout
   email_address: "roboskel@iit.demokritos.gr"
   behance:
-  bitbucket:
+  bitbucket: "roboskel"
   dribbble:
   facebook:
   flickr:
-  gitlab:
+  gitlab: "roboskel"
   github: "roboskel"
-  google_plus:
   instagram:
   keybase:
   linkedin:  # Full URL
@@ -47,21 +46,21 @@ theme_settings:
   steam:
   tumblr:
   twitter: # "twitter username"
-  vimeo:
+  vimeo: "roboskel"
   wordpress:
   youtube:
 
   # Sharing options
   share_buttons:
-    facebook: true
-    twitter: true
-    tumblr:
-    pinterest:
-    pocket:
-    reddit: true
-    linkedin:
-    wordpress:
-    email: true
+    facebook: false
+    twitter: false
+    tumblr: false
+    pinterest: false
+    pocket: false
+    reddit: false
+    linkedin: false
+    wordpress: false
+    email: false
 
   # Scripts / Features 
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
