@@ -85,6 +85,11 @@ theme_settings:
   # Post navigation
   post_navigation: true
 
+  # Controls whether in the portfolio, the item titles are shown
+  # when hovering over the images or as captions under the images
+  show_caption: true
+  hover_caption: false
+
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
@@ -113,6 +118,9 @@ authors:
 
 # PORTFOLIO
 collections:
+  people:
+    output: true
+    permalink: /:collection/:name
   portfolio:
     output: true
     permalink: /personnel/:name #changed from permalink: /:collection/:name
@@ -144,6 +152,28 @@ scholar:
 
   query: "@*"
 
+scholar:
+  style: assets/bibliography/mycslfile.csl
+  locale: en
+
+  group_by: category
+  group_order: ascending
+  #type_order: [Computer Science, Typesetting]
+  sort_by: year
+  order: descending
+
+  source: assets/bibliography
+  bibliography: references
+  bibliography_template: biblio
+
+  replace_strings: true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
@@ -151,5 +181,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag, 'jekyll/scholar']
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
+# theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
