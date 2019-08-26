@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Former Members
+permalink: /personnel/gone.html
 img: "assets/faces/former-members-2.png"
-permalink: /personnel/gone
 tags: [personnel,robot,human]
 ---
 

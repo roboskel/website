@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Katerina Oikonomou
+permalink: /personnel/oikonomou.html
 img: "assets/faces/oikonomou-reframed.png"
-permalink: /personnel/oikonomou
 tags: [personnel, human]
 ---
 

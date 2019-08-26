@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Joe
-permalink: /personnel/joe
+permalink: /personnel/joe.html
 img: "assets/faces/joe-reframed.png"
 tags: [personnel, robot]
 ---

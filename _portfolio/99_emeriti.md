@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Honorary Members
+permalink: /personnel/emeriti.html
 img: "assets/faces/honorary-members.png"
-permalink: /personnel/emeriti
 tags: [personnel,human]
 ---
 

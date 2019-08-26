@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Synaisthisi 
+permalink: /project/synaisthisi.html
 img: "assets/img/projects/synaisthisi.png"
-permalink: /project/synaisthisi
 tags: [projects, national projects, completed projects, IoT]
 ---
 

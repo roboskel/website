@@ -1,8 +1,8 @@
 ---
 layout: post
 title: RADIO 
+permalink: /project/radio.html
 img: "assets/img/projects/radio-reframed.png"
-permalink: /project/radio
 tags: [projects, EU projects, completed projects, assisted living]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Indigo
+permalink: /personnel/indigo.html
 img: "assets/faces/indigo-reframed.jpeg"
 tags: [personnel, robot]
 ---

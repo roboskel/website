@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raphaelo
-permalink: /personnel/rapha
+permalink: /personnel/rapha.html
 img: "assets/faces/rapha-reframed.png"
 tags: [personnel, robot]
 ---

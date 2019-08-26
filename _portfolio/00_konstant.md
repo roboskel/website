@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stasinos Konstantopoulos
-permalink: /personnel/konstant
+permalink: /personnel/konstant.html
 img: "assets/faces/konstant-reframed.png"
 tags: [personnel, human]
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Georgios Stavrinos
+permalink: /personnel/gstavrinos.html
 img: "assets/faces/stavrinos.png"
-permalink: /personnel/gstavrinos
 tags: [personnel, human]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: HR-CHORRUS 
+permalink: /project/chorus.html
 img: "assets/faces/misc.png"
-permalink: /project/chorus
 tags: [projects, human-robot collaboration]
 ---
 

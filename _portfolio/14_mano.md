@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mano
+permalink: /personnel/mano.html
 img: "assets/faces/manos-reframed.png"
-permalink: /personnel/mano
 tags: [personnel,robot]
 ---
 
