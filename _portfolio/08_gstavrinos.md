@@ -6,7 +6,7 @@ img: "assets/faces/stavrinos-reframed.png"
 tags: [personnel, human]
 ---
 
-![Inside post photo](/assets/faces/stavrinos.png)
+![Inside post photo](/assets/faces/stavrinos.jpeg)
 
 
 Georgios Stavrinos...
