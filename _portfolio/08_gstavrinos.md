@@ -2,9 +2,12 @@
 layout: post
 title: Georgios Stavrinos
 permalink: /personnel/gstavrinos.html
-img: "assets/faces/stavrinos.png"
+img: "assets/faces/stavrinos-reframed.png"
 tags: [personnel, human]
 ---
+
+![Inside post photo](/assets/faces/stavrinos.png)
+
 
 Georgios Stavrinos...
 
