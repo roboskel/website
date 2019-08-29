@@ -35,6 +35,12 @@
     <script src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
     {% endif %}
 
+    <!-- Ideal Image Slider -->
+    {% if site.theme_settings.header_feature.carousel %}
+    <link rel="stylesheet" href="{{ '/assets/css/vendor/ideal-image-slider.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/vendor/ideal-image-slider-themes/default/default.css' | absolute_url }}">
+    {% endif %}
+  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {% if site.theme_settings.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics }}"></script>

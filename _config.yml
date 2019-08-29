@@ -16,11 +16,27 @@ theme_settings:
   # Meta
   avatar: assets/img/triangle.png
   color_image: /assets/img/lineart.png # In post when you set color
-  favicon: assets/favicon.ico
+  favicon: /assets/favicon.ico
 
   # Header and footer text
-  header_text: Change header text in <code>_config.yml</code>
-  header_feature_image: assets/img/pexels/triangular.jpeg
+
+  # The header feature can a single image
+  # or an image carousel
+  #header_feature:
+  #  image: assets/img/pexels/computer.jpeg
+  #  text: Change header text in <code>_config.yml</code>
+  header_feature:
+    carousel:
+      - feature:
+          image: assets/img/pexels/computer.jpeg
+          text: Change header features in <code>_config.yml</code>
+      - feature:
+          image: assets/img/pexels/triangular.jpeg
+          text: Change header text in <code>_config.yml</code>
+      - feature:
+          image: assets/img/pexels/circuit.jpeg
+          text: Circuit
+
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
