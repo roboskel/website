@@ -1,12 +1,11 @@
-# Idea files
 .idea/*
-
-# Mac files
 .DS_Store
+*~
 
 # Byte-compiled / optimized / DLL files
 *.manifest
 *.spec
+.bundle/
 
 # Jekyll dev or build files
 _site/*
