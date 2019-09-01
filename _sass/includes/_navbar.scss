@@ -3,7 +3,10 @@
   padding: 2% 2% 1% 2%;
   background: $brand-color;
   display: inline-block;
-  float: left;
+  // This breaks Ideal Image Slider
+  // and commenting it out didn't
+  // seem to do any harm
+  //float: left;
   width: 100%;
 
   .separator {

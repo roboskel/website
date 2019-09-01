@@ -20,9 +20,15 @@ theme_settings:
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text:
-     <p>Robotics activity of the Institute of Informatics and Telecommunications of NCSR &quot;Demokritos&quot;.</p>
-  header__feature_image: assets/img/robots-940x427.png
+  header_feature:
+    carousel:
+      - feature:
+          image: assets/img/pexels/computer.jpeg
+          text: Change header features in <code>_config.yml</code>
+      - feature:
+          image: assets/img/pexels/circuit.jpeg
+          text: Circuit
+
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 

@@ -3,13 +3,38 @@ layout: default
 ---
 
 <div class="home">
-  {% if site.theme_settings.header_text %}
+
+  {% if site.theme_settings.header_feature.carousel %}
+  <div class="home">
+    <div id="main">
+      <div id="slider">
+	{% for slides in site.theme_settings.header_feature.carousel %}
+	<img data-src="{{ slides.feature.image }}" alt="{{ slides.feature.text }}">
+	{% endfor %}
+      </div>
+    </div>
+  </div>
+  {% else %}
   <div id="main" class="call-out"
-  style="background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')">
-    <h1> {{ site.theme_settings.header_text }} </h1>
+  style="background-image: url('{{ site.theme_settings.header_feature.image | relative_url }}')">
+    <h1> {{ site.theme_settings.header_feature.text }} </h1>
   </div>
   {% endif %}
 
-  {% include blog.html %}
-    
 </div>
+
+{% if site.theme_settings.header_feature.carousel %}
+<script src="{{ 'assets/js/vendor/iis/ideal-image-slider.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/vendor/iis/extensions/captions/iis-captions.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/vendor/iis/extensions/bullet-nav/iis-bullet-nav.js' | relative_url }}"></script>
+<script>
+  var o = new IdealImageSlider.Slider( {
+      selector: '#slider',
+      height: 400,
+      interval: 5000 // msec
+  } );
+  o.addBulletNav();
+  o.addCaptions();
+  o.start();
+</script>
+{% endif %}
