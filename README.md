@@ -1,43 +1,38 @@
-# Type on Strap 
+# Ac on Strap 
 
 [![Build Status](https://travis-ci.org/sylhare/Type-on-Strap.svg?branch=master)](https://travis-ci.org/sylhare/Type-on-Strap)
 [![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
 
-A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chandra [type-theme](https://github.com/rohanchandra/type-theme) with a few new features:
+A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on
+the [Type on Strap](https://github.com/sylhare/Type-on-Strap)
+responsive theme with a more focused structure in the demo site
+and few new features:
 
-* Responsive design
-* Portfolio page for your projects
-* Tags compatibility
-* Bootstrap : [Get Bootstrap](http://getbootstrap.com/)
-* Search feature : [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Math Rendering : [KateX](https://github.com/Khan/KaTeX)
-* Nice fonts : [Font Awesome](https://fontawesome.com/), [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro), [Pacifico](https://fonts.google.com/specimen/Pacifico?selection.family=Pacifico) 
-* Seo Tags : [Jekyll-seo-tag](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
-* Syntax Highlighting: Easily customisable [Base16](https://github.com/chriskempson/base16)
-* Free of rights images from [pexels](https://www.pexels.com/)
+* Autogeneration of publications pages from bib file
+* Image slider and research statement in the home page
 
-> [Demo](https://sylhare.github.io/Type-on-Strap/)
+> [Demo](https://syasinos.github.io/Ac-on-Strap/)
  
 [![Default Type on Strap blog](https://github.com/Sylhare/Type-on-Strap/blob/master/screenshot.png?raw=true)](https://sylhare.github.io/Type-on-Strap/)
 
 ## Table of Contents
 
-1. [Usage](https://github.com/Sylhare/Type-on-Strap#Usage)
-2. [Structure](https://github.com/Sylhare/Type-on-Strap#structure)
-3. [Configure Type on Strap](https://github.com/Sylhare/Type-on-Strap#configure-type-on-strap)
-4. [Layout](https://github.com/Sylhare/Type-on-Strap#layout)
-5. [Feature pages](https://github.com/Sylhare/Type-on-Strap#feature-pages)
-6. [Template as a Gem](https://github.com/Sylhare/Type-on-Strap#Template-as-a-Gem)
-7. [Advanced](https://github.com/Sylhare/Type-on-Strap#advanced)
-8. [License](https://github.com/Sylhare/Type-on-Strap#license)
+1. [Usage](https://github.com/stasinos/Ac-on-Strap#Usage)
+2. [Structure](https://github.com/stasinos/Ac-on-Strap#structure)
+3. [Configure Type on Strap](https://github.com/stasinos/Ac-on-Strap#configure-type-on-strap)
+4. [Layout](https://github.com/stasinos/Type-on-Strap#layout)
+5. [Feature pages](https://github.com/stasinos/Ac-on-Strap#feature-pages)
+6. [Template as a Gem](https://github.com/stasinos/Ac-on-Strap#Template-as-a-Gem)
+7. [Advanced](https://github.com/stasinos/Ac-on-Strap#advanced)
+8. [License](https://github.com/stasinos/Ac-on-Strap#license)
 
 ## Usage
 
-1. Fork and clone the [Type on Strap repo](https://github.com/sylhare/Type-On-Strap): `git clone https://github.com/Sylhare/Type-on-Strap.git`
+1. Fork and clone the [Ac on Strap repo](https://github.com/stasinos/Ac-On-Strap): `git clone https://github.com/stasinos/Ac-on-Strap.git`
 2. Install [Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`, check [#1](https://github.com/Sylhare/Type-on-Strap/issues/1) if you have a problem.
 3. Install the theme's dependencies: `bundle install`
 4. Customize the theme
-	- Github Page: [update `_config.yml`](https://github.com/Sylhare/Type-on-Strap#site-configuration)
+	- Github Page: [update `_config.yml`](https://github.com/stasinos/Ac-on-Strap#site-configuration)
 5. Run the Jekyll server: `jekyll serve`
 
 ## Structure
@@ -85,7 +80,7 @@ Jekyll website *without* a subpath (such as a GitHub Pages website for a given u
   url: "https://username.github.io"
 ```
 
-Jekyll website *with* subpath (like the Type on Strap [demo](https://sylhare.github.io/Type-on-Strap/) page):
+Jekyll website *with* subpath (like the Type on Strap [demo](https://stasinos.github.io/Ac-on-Strap/) page):
 
 ```yml
   baseurl: "/sub-directory"
@@ -391,7 +386,7 @@ The Tag page can be hidden with the `hide` option. You can remove the icon by re
 ## Template as a Gem
 
 You can use Type-on-strap as a [gem](https://rubygems.org/gems/type-on-strap). 
-Checkout an example in the [gem-demo branch](https://github.com/Sylhare/Type-on-Strap/tree/gem-demo).
+Checkout an example in the [gem-demo branch](https://github.com/stasinos/Ac-on-Strap/tree/gem-demo).
 To make the feature pages available in from the gem I created them as layouts that can be invoked in the pages folder.
 
 So if you're using the template as a theme, Make sure you have:
@@ -429,4 +424,4 @@ git status
 ## License
 
 There are some fonts and component on this theme going under the MIT licence as well in this theme.
-[The MIT License (MIT)](https://raw.githubusercontent.com/Sylhare/Type-on-Strap/master/LICENSE)
+[The MIT License (MIT)](https://raw.githubusercontent.com/stasinos/Ac-on-Strap/master/LICENSE)
