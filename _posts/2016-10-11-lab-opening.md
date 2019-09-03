@@ -10,6 +10,9 @@ author-id: stasinos
 
 The Roboskel Lab is Roboskel's new home. The lab is a research space
 simulating a home which is monitored by advanced robotic equipment.
+
+<!--more-->
+
 At one end of the lab is the "living area", which simulates a
 single-room studio with a kitchen area and dining table and a living
 room area with couch, TV, and cupboards. At the other end is the
