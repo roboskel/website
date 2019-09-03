@@ -40,6 +40,30 @@ theme_settings:
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/stasinos/Ac-on-Strap">Ac on Strap</a>, a responsive template for presenting academic research adapted from <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>.
 
+  # Home page
+
+  home:
+    background_colour: "#1d2c3a"
+    welcome: >
+      <h2>Welcome to the web site of our research group</h2>
+    columnA: >
+      <h3>Research areas:</h3>
+        <ul>
+        <li> One research area we are pursuing
+        <li> Another research area we are pursuing
+        </ul>
+    columnB: >
+      <h3>Impact areas:</h3>
+      <ul>
+      <li> One area where our research is demonstrated
+      <li> Another area where our research is demonstrated
+      <li> A third area where our research is demonstrated
+      </ul>
+    columnC: >
+      Contact us: <br/>
+      Physical address <br/>
+      Electronic communication
+
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
   email_address: # Full email address, e.g. "sam@example.com"
