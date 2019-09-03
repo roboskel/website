@@ -2,7 +2,7 @@
 layout: post
 title: Former Members
 permalink: /personnel/gone.html
-img: "assets/faces/former-members-2.png"
+img: "assets/faces/former-members.png"
 tags: [personnel,robot,human]
 ---
 
@@ -11,6 +11,33 @@ tags: [personnel,robot,human]
 	<col width="30%" />
 	<col width="70%" />
 </colgroup>
+
+<tr>
+<td markdown="span">
+![image]({{ site.baseurl }}/assets/faces/nefelipk.jpeg)
+<br/>
+**Nefeli Prokopaki Kostopoulou (2018-2019)**
+<br/>
+<a href="https://github.com/nefelipk" title="Follow her on GitHub">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+</a>
+<a href="https://www.linkedin.com/in/nefeli-prokopaki-kostopoulou-21a1a0192" title="Follow her on LinkedIn">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+</td>
+<td markdown="span">
+Nefeli Prokopaki Kostopoulou holds a BSc in Informatics and
+Telecommunications (University of Athens, 2016), and an MSc in
+Computing Systems (University of Athens, 2019). Nefeli
+carried out her MSc thesis work at Roboskel, working with
+[Rulah]({% link _portfolio/11_rulah.md %})
+supervised by [Stasinos]({% link _portfolio/00_konstant.md %}).
+<br/><br/>
+After graduating, she moved to the Data Engineering Group, also
+at NCSR "Demokritos", to pursue her research interests in
+computational logic, artificial intelligence and protection and
+security of information systems.
+</td>
+</tr>
 
 <tr>
 <td markdown="span">
@@ -240,7 +267,7 @@ During his studies, he worked at Roboskel as an intern.
 </td>
 </tr>
 
-<tr>
+<tr id="rossides">
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/rossides-sek.jpeg)
 <br/>
@@ -253,7 +280,10 @@ During his studies, he worked at Roboskel as an intern.
 Charalambos Rossides graduated form Electrical and Computer
 Engineering at the National Technical University of Athens (NTUA) in
 July 2014. His academic interests include control systems, automation
-and robotics. While at Roboskel, we worked with Andreas and Sek
+and robotics. While at Roboskel, we worked with
+[Andreas]({% link _portfolio/98_alumni.md %}#lydakis)
+and
+[Sek]({% link _portfolio/98_alumni.md %}#sek)
 on teaching Sek how to understand directions given in
 human language for his diploma thesis,
 *Mobile Robot Navigation through an Unknown Environment towards a Predefined Target*,
@@ -279,8 +309,9 @@ and Localization project that Roboskel organized in the context of
 IRSS 2013 (July 2013). She then joined Roboskel as an intern for her
 Electrical and Computer Engineering degree at the Aristotle University
 of Thessaloniki, where she worked on the improvement and the ROS
-re-implementation the HPR method originally developed and prototyped
-by Theodoros Varvadoukas for his BSc thesis. She was also involved in
+re-implementation the HPR method originally developed and prototyped by
+[Theodoros Varvadoukas]({% link _portfolio/98_alumni.md %}#tvarv)
+for his BSc thesis. She was also involved in
 the Roboskel demonstration at Researchers' Night 2013 and worked
 on using intensity information to improve the segmentation of laser
 range data.
@@ -301,7 +332,7 @@ an intern.
 </td>
 </tr>
 
-<tr>
+<tr id="lydakis">
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/lydakis.jpeg)
 <br/>
@@ -316,7 +347,8 @@ an intern.
 Andreas Lydakis graduated from the Computer Engineering & Informatics
 Dpt. of the University of Patras in 2013, and joined Roboskel
 shortly afterwards. Andreas worked the software stacks of both
-[Indigo]({% link _portfolio/02_indigo.md %}) and Sek,
+[Indigo]({% link _portfolio/02_indigo.md %}) and
+[Sek]({% link _portfolio/98_alumni.md %}#sek),
 and also carried out research on
 human-robot interaction.
 <br/><br/>
@@ -325,34 +357,35 @@ Hampshire, USA.
 </td>
 </tr>
 
-<tr>
+<tr id="sek">
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/sek.jpeg)
 <br/>
 **Sek (2013-2017)**
 </td>
 <td markdown="span">
-Sek is the first full-time robotic member of Roboskel. He is a
+Sek was the first full-time robotic member of Roboskel. He was a
 custom-made robot and his first day at the lab was 31 January 2013.
 <br/><br/>
 He started out running ROS Fuerte over Ubuntu Precise, later moving on
-to Hydra. The ROS nodes for his IMU and Roboteq motor controller was
-developed by Andreas Lydakis.
+to Hydra. The ROS nodes for his IMU and Roboteq motor controller were
+developed by [Andreas]({% link _portfolio/98_alumni.md %}#lydakis).
 His first task was collecting audio-visual and laser range data for
 experiments on speaker diarization, cooperating with Theodoros
 Giannakopoulos in the AVISPIRE project. He then helped
-Charalambos Rossides with Charalambos' thesis project on navigation.
+[Charalambos]({% link _portfolio/98_alumni.md %}#rossides)
+with his thesis project on navigation.
 <br/><br/>
 Sek also helped
-[Giorgos]({% link _portfolio/08_gstavrinos.md %}) with Giorgos'
+[Giorgos]({% link _portfolio/08_gstavrinos.md %}) with his
 thesis on *Racing Robot Path Planning*. This work was
-the basis for the *race robot* show Sek has given innumerable times
-on Researchers' Nights and the NCSR School Visits programme,
+the basis for the *race robot* show that Sek was giving
+on Researchers' Nights and the NCSR School Visits programme
 until his retirement in 2017.
 </td>
 </tr>
 
-<tr>
+<tr id="tvarv">
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/tvarv.jpeg)
 <br/>
@@ -368,7 +401,7 @@ work at Roboskel,
 supervised by [Stasinos]({% link _portfolio/00_konstant.md %})
 and with substantial help from
 [Indigo]({% link _portfolio/02_indigo.md %}).
-Theodoros thesis _Detecting Human Patterns in Laser Range Data_ also
+Theodoros' thesis _Detecting Human Patterns in Laser Range Data_ also
 led to a publication at ECAI 2012.
 <br/><br/>
 After graduating he was a research assistant at New York University

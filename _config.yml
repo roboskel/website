@@ -150,32 +150,32 @@ theme_settings:
   
 # PAGINATION
 paginate: 15
-paginate_path: "blog/page:num"
+paginate_path: "news/page:num"
 
 # AUTHORS
 authors:
-  mhagnumdw: # author-id
-    name: MhagnumDw
-    avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
+  stasinos:
+    name: Stasinos Konstantopoulos
+    avatar: "assets/faces/konstant-reframed.png"
     url: 
   sylhare:
     name: Sylhare
     avatar: "assets/img/avatars/sylhare_avatar.png"
     url: "https://github.com/sylhare"
 
+
 # PORTFOLIO
+
 collections:
-  people:
-    output: true
-    permalink: /:collection/:name
   portfolio:
     output: true
     permalink: /personnel/:name #changed from permalink: /:collection/:name
   project:
     output: true
     permalink: /projects/:name
-#PUBLICATIONS:
 
+
+#PUBLICATIONS:
 
 scholar:
   style: assets/bibliography/mycslfile.csl
