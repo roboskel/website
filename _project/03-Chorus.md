@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HR-CHORRUS 
+title: "HR-CHORRUS: Human collaborator representation for autononous robot decisions"
 permalink: /project/chorus.html
 img: "assets/faces/misc.png"
 tags: [projects, human-robot collaboration]

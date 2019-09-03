@@ -1,5 +1,4 @@
 ---
-layout: news
 title: News
 permalink: /news/
 feature-img: "assets/img/pexels/retro-school.jpeg"

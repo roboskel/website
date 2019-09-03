@@ -1,8 +1,9 @@
 --- 
 layout: page
 title : Publications
-permalink: /publications/
+permalink: /research/publications/
 tags: [Publications]
+hide: true
 ---
 
 {% bibliography %}
