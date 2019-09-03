@@ -8,7 +8,11 @@ layout: default
   <div id="main">
     <div id="slider">
       {% for slides in site.theme_settings.header_feature.carousel %}
-      <img data-src="{{ slides.feature.image }}" alt="{{ slides.feature.text }}">
+      {% if slides.feature.url %}
+      <a href="{{ slides.feature.url }}"><img data-src="{{ slides.feature.image }}" src="" alt="{{ slides.feature.text }}"></a>
+      {% else %}
+      <img data-src="{{ slides.feature.image }}" src="" alt="{{ slides.feature.text }}">
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -103,7 +107,7 @@ layout: default
   var o = new IdealImageSlider.Slider( {
       selector: '#slider',
       height: 320,
-      interval: 5000 // msec
+      interval: {{ site.theme_settings.header_feature.interval }}
   } );
   o.addBulletNav();
   o.addCaptions();

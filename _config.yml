@@ -27,10 +27,12 @@ theme_settings:
   #  image: assets/img/pexels/computer.jpeg
   #  text: Change header text in <code>_config.yml</code>
   header_feature:
+    interval: 3000 # msec
     carousel:
       - feature:
           image: assets/img/pexels/computer.jpeg
           text: Change header features in <code>_config.yml</code>
+          url: https://www.w3schools.com/css
       - feature:
           image: assets/img/pexels/triangular.jpeg
           text: Change header text in <code>_config.yml</code>
