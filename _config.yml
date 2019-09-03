@@ -2,7 +2,8 @@
 baseurl: "/Ac-on-Strap"
 url: "https://stasinos.github.io/Ac-on-Strap"
 title: Ac on Strap # site's title
-description: "Website template for research groups" # used by search engines
+subtitle: # Responsive theme for research groups # optional
+description: "Responsive theme for research groups" # used by search engines
 
 defaults:
   - 
