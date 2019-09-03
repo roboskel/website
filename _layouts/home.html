@@ -51,7 +51,7 @@ layout: default
   //height: 240px;
   margin-bottom: 15px;
   float: left;
-  background: #7ec0f8;
+  background: {{ site.theme_settings.home.background_colour }};
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
@@ -74,22 +74,22 @@ layout: default
     <div class="grid-sizer"></div>
     <div class="gutter-sizer"></div>
     <div class="grid-item grid-item--all">
-      <font color={{ site.theme_settings.home.background_colour }}>
+      <font color={{ site.theme_settings.home.font_colour }}>
 	{{ site.theme_settings.home.welcome }}
       </font>
     </div>
     <div class="grid-item">
-      <font color={{ site.theme_settings.home.background_colour }}>
+      <font color={{ site.theme_settings.home.font_colour }}>
 	{{ site.theme_settings.home.columnA }}
       </font>
     </div>
     <div class="grid-item">
-      <font color={{ site.theme_settings.home.background_colour }}>
+      <font color={{ site.theme_settings.home.font_colour }}>
 	{{ site.theme_settings.home.columnB }}
       </font>
     </div>
     <div class="grid-item">
-      <font color={{ site.theme_settings.home.background_colour }}>
+      <font color={{ site.theme_settings.home.font_colour }}>
 	{{ site.theme_settings.home.columnC }}
       </font>
     </div>

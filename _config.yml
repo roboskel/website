@@ -46,7 +46,8 @@ theme_settings:
   # Home page
 
   home:
-    background_colour: "#1d2c3a"
+    background_colour: "#7ec0f8"
+    font_colour: "#1d2c3a"
     welcome: >
       <h2>Welcome to the web site of our research group</h2>
     columnA: >
