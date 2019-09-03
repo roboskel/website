@@ -2,7 +2,10 @@
 baseurl: ""
 url: "https://roboskel.iit.demokritos.gr"
 title: Robotics activity
-subtitle: NCSR &quot;Demokritos&quot;
+subtitle: >
+  <a href="https://www.iit.demokritos.gr/skel" target="_blank">SKEL</a>,
+  <a href="https://www.iit.demokritos.gr" target="_blank">IIT</a>,
+  <a href="http://www.demokritos.gr" target="_blank">NCSR &quot;Demokritos&quot;</a>
 description: "Roboskel robotics activity, Institute of Informatics and Telecommunications, NCSR Demokritos" # used by search engines
 
 
@@ -39,26 +42,37 @@ theme_settings:
   # Home page
 
   home:
-    background_colour: "#fff4c8"
+    background_colour: "#d6cda8"
+    font_colour: "#1d2c3a"
     welcome: >
-      <h2>Welcome to the web site of our research group</h2>
+      Welcome to Roboskel, the robotics activity of the
+      Software and Knowledge Engineering Lab,
+      <br>
+      Institute of Informatics and Telecommunications,
+      NCSR &quot;Demokritos&quot;
     columnA: >
       <h3>Research areas:</h3>
         <ul>
-        <li> One research area we are pursuing
-        <li> Another research area we are pursuing
+        <li> Human activity recognition
+        <li> Human-robot collaboration
+        <li> Rugged terrain navigation
         </ul>
     columnB: >
       <h3>Impact areas:</h3>
       <ul>
-      <li> One area where our research is demonstrated
-      <li> Another area where our research is demonstrated
-      <li> A third area where our research is demonstrated
+      <li> Assistive robots
+      <li> Agile manufacturing
+      <li> Disaster area management
       </ul>
     columnC: >
       Contact us: <br/>
-      Physical address <br/>
-      Electronic communication
+      Institute of Informatics and Telecommunications <br>
+      NCSR &quot;Demokritos&quot; <br>
+      P.O. Box 60037, Ag. Paraskevi <br>
+      Athens GR-15310 <br>
+      E: <a href="mailto:roboskel@iit.demokritos.gr">roboskel@iit.demokritos.gr</a><br>
+      Visit us: <br>
+      <a href="https://www.iit.demokritos.gr/location">https://www.iit.demokritos.gr/location</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout

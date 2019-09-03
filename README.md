@@ -421,6 +421,15 @@ gulp default
 git status
 ```
 
+### Publishing
+
+Ac-on-Strap cannot be served from github pages, as it uses the
+`jekyll-scholar` plugin that is not supported by github.
+
+```shell
+rsync -av --delete _site/ webrobo:/web/
+
+
 ## License
 
 There are some fonts and component on this theme going under the MIT licence as well in this theme.
