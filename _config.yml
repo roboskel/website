@@ -207,11 +207,11 @@ authors:
   stasinos:
     name: Stasinos Konstantopoulos
     avatar: "assets/faces/konstant-reframed.png"
-    url: 
-  sylhare:
-    name: Sylhare
-    avatar: "assets/img/avatars/sylhare_avatar.png"
-    url: "https://github.com/sylhare"
+    url: "https://github.com/stasinos"
+  oikonomou:
+    name: Katerina Oikonomou
+    avatar: "assets/faces/oikonomou-reframed.png"
+    url: "https://github.com/koikonomou"
 
 
 # PORTFOLIO
