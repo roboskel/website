@@ -5,13 +5,15 @@ layout: default
 <div class="home">
 
   {% if site.theme_settings.header_feature.carousel %}
-  <div class="home">
-    <div id="main">
-      <div id="slider">
-	{% for slides in site.theme_settings.header_feature.carousel %}
-	<img data-src="{{ slides.feature.image }}" alt="{{ slides.feature.text }}">
-	{% endfor %}
-      </div>
+  <div id="main">
+    <div id="slider">
+      {% for slides in site.theme_settings.header_feature.carousel %}
+      {% if slides.feature.url %}
+      <a href="{{ slides.feature.url }}"><img data-src="{{ slides.feature.image }}" src="" alt="{{ slides.feature.text }}"></a>
+      {% else %}
+      <img data-src="{{ slides.feature.image }}" src="" alt="{{ slides.feature.text }}">
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
   {% else %}
@@ -21,7 +23,81 @@ layout: default
   </div>
   {% endif %}
 
+
+
+  <style>
+
+* { box-sizing: border-box; }
+
+.grid {
+  //background: #55ff00;
+  max-width: 1280px;
+  // centered
+  margin: 0 auto;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer, .grid-item { width: 45%; }
+
+.gutter-sizer { width: 10%; }
+
+.grid-item {
+  //height: 240px;
+  margin-bottom: 15px;
+  float: left;
+  background: #7ec0f8;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width: 100%; }
+.grid-item--all { width: 100%; }
+
+@media screen and (min-width: 768px) {
+  /* 3 columns for larger screens */
+  .grid-sizer, .grid-item { width: 30%; }
+  .gutter-sizer { width: 5%; }
+  .grid-item--width2 { width: 65%; }
+  .grid-item--all { width: 100%; }
+}
+
+  </style>
+
+  <div id="areas" class="grid">
+    <div class="grid-sizer"></div>
+    <div class="gutter-sizer"></div>
+    <div class="grid-item grid-item--all">
+      <font color={{ site.theme_settings.home.background_colour }}>
+	{{ site.theme_settings.home.welcome }}
+      </font>
+    </div>
+    <div class="grid-item">
+      <font color={{ site.theme_settings.home.background_colour }}>
+	{{ site.theme_settings.home.columnA }}
+      </font>
+    </div>
+    <div class="grid-item">
+      <font color={{ site.theme_settings.home.background_colour }}>
+	{{ site.theme_settings.home.columnB }}
+      </font>
+    </div>
+    <div class="grid-item">
+      <font color={{ site.theme_settings.home.background_colour }}>
+	{{ site.theme_settings.home.columnC }}
+      </font>
+    </div>
+  </div>
+
+
 </div>
+
 
 {% if site.theme_settings.header_feature.carousel %}
 <script src="{{ 'assets/js/vendor/iis/ideal-image-slider.js' | relative_url }}"></script>
@@ -30,11 +106,27 @@ layout: default
 <script>
   var o = new IdealImageSlider.Slider( {
       selector: '#slider',
-      height: 400,
-      interval: 5000 // msec
+      height: 320,
+      interval: {{ site.theme_settings.header_feature.interval }}
   } );
   o.addBulletNav();
   o.addCaptions();
   o.start();
 </script>
 {% endif %}
+
+<script src="{{ "/assets/js/vendor/masonry.pkgd.min.js" | relative_url }}" type="text/javascript"></script>
+
+<script>
+  var msnry = new Masonry( '#areas', {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+    gutter: 20,
+    // disable initial layout
+    initLayout: false
+  });
+
+  // trigger initial layout
+  msnry.layout();
+</script>

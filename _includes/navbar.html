@@ -1,17 +1,25 @@
 <header class="site-header">
     
     <!-- Logo and title -->
-	<div class="branding">
-		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.theme_settings.avatar | relative_url }}" />
-		</a>
-
-		<h1 class="site-title">
-			<a aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
-        {{ site.title }}
+    <div class="branding">
+      <a href="{{ '/' | relative_url }}">
+        <img alt="logo img" class="avatar" src="{{ site.theme_settings.avatar | relative_url }}" />
       </a>
-		</h1>
-	</div>
+      {% if site.subtitle %}
+      <div class="site-title-with-sub">
+      {% else %}
+      <div class="site-title">
+      {% endif %}
+	<a aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+	  {{ site.title }}
+	</a>
+	{% if site.subtitle %}
+	<span>
+	  {{ site.subtitle }}
+	</span>
+	{% endif %}
+      </div>
+    </div>
     
     <!-- Toggle menu -->
     <nav class="clear">
