@@ -2,7 +2,7 @@
 layout: post
 title: Thanasis Tsitos
 permalink: /personnel/tsitos
-img: assets/faces/tsitos.jpeg
+img: assets/faces/tsitos_framed.png
 tags: [personnel, human]
 ---
 

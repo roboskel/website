@@ -2,7 +2,7 @@
 layout: post
 title: Matina Stathogiannakou
 permalink: /personnel/stathogiannakou
-img: assets/faces/stathogiannakou.png
+img: assets/faces/stathogiannakou_framed.png
 tags: [personnel, human]
 ---
 

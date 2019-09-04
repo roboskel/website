@@ -2,7 +2,7 @@
 layout: post
 title: Maria Dagioglou
 permalink: /personnel/mdagiogl.html
-img: "assets/faces/mdagiogl-reframed.png"
+img: "assets/faces/mdagiogl_framed.png"
 tags: [personnel, human]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Rulah
 permalink: /personnel/rulah.html
-img: "assets/faces/rulah-reframed.png"
+img: "assets/faces/rulah_framed.png"
 tags: [personnel, robot]
 ---
 
