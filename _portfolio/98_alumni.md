@@ -18,10 +18,10 @@ tags: [personnel,robot,human]
 <br/>
 **Nefeli Prokopaki Kostopoulou (2018-2019)**
 <br/>
-<a href="https://github.com/nefelipk" title="Follow her on GitHub">
+<a href="https://github.com/nefelipk" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
-<a href="https://www.linkedin.com/in/nefeli-prokopaki-kostopoulou-21a1a0192" title="Follow her on LinkedIn">
+<a href="https://www.linkedin.com/in/nefeli-prokopaki-kostopoulou-21a1a0192" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -43,10 +43,10 @@ security of information systems.
 <td markdown="span">
 **Sokratis Beis (2018)**
 <br/>
-<a href="https://github.com/sokb" title="Follow him on GitHub">
+<a href="https://github.com/sokb" title="Follow him on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
-<a href="https://linkedin.com/in/sokratis-beis" title="Follow him on LinkedIn">
+<a href="https://linkedin.com/in/sokratis-beis" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -58,10 +58,18 @@ Informatics and Telecommunications, University of Athens.
 <tr>
 <td markdown="span">
 **Matthew Zidianakis (2018)**
+<br/>
+<a href="https://github.com/MatthewZid" title="Follow him on GitHub" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+</a>
+<a href="https://linkedin.com/in/matthew-z-329a0a15a" title="Follow him on LinkedIn" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
-Matthew worked at Roboskel as an intern during his studies on
-Informatics and Telecommunications, University of Athens.
+Matthew worked at Roboskel as an intern during his study at the
+Department of Informatics and Telecommunications, University of Athens.
+He advanced our work on ROS bag visualization and annotation,
+contributing the module for the laser scanner channel.
 </td>
 </tr>
 
@@ -69,7 +77,7 @@ Informatics and Telecommunications, University of Athens.
 <td markdown="span">
 **Ilia Malfa (2018)**
 <br/>
-<a href="https://github.com/Ilna" title="Follow her on GitHub">
+<a href="https://github.com/Ilna" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
@@ -81,7 +89,7 @@ Ilia worked at Roboskel as an intern during her studies.
 <td markdown="span">
 **Charis Stamouli (2018)**
 <br/>
-<a href="https://github.com/hstam" title="Follow her on GitHub">
+<a href="https://github.com/hstam" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
@@ -94,7 +102,7 @@ Electrical and Computer Engineering, National Technical University of Athens.
 <td markdown="span">
 **Georgios Kamaras (2018)**
 <br/>
-<a href="https://github.com/yorgosk" title="Follow him on GitHub">
+<a href="https://github.com/yorgosk" title="Follow him on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </td>
 <td markdown="span">
@@ -122,13 +130,14 @@ retired when the FHAG pilots finished in early 2018.
 </td>
 </tr>
 
-<tr>
+<tr id="kzam">
 <td markdown="span">
+![image]({{ site.baseurl }}/assets/faces/kzam.jpeg)
 **Katerina Zamani (2015-2017)**
 <br/>
-<a href="https://github.com/kzama" title="Follow her on GitHub">
+<a href="https://github.com/kzama" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
-<a href="https://gr.linkedin.com/in/katerina-zamani-a9bb9784" title="Follow her on LinkedIn">
+<a href="https://gr.linkedin.com/in/katerina-zamani-a9bb9784" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -141,23 +150,60 @@ At the end of 2017 Katerina moved on to pursue a carrier in industry.
 </td>
 </tr>
 
-<tr>
+<tr id="sek">
 <td markdown="span">
-**Kostis Nikolareas (2017)**
+![image]({{ site.baseurl }}/assets/faces/sek.jpeg)
+<br/>
+**Sek (2013-2017)**
 </td>
 <td markdown="span">
-Kostis worked at Roboskel as an intern during his studies on
-Computer Engineering and Informatics, University of Patras.
+Sek was the first full-time robotic member of Roboskel. He was a
+custom-made robot and his first day at the lab was 31 January 2013.
+<br/><br/>
+He started out running ROS Fuerte over Ubuntu Precise, later moving on
+to Hydra. The ROS nodes for his IMU and Roboteq motor controller were
+developed by [Andreas]({% link _portfolio/98_alumni.md %}#lydakis).
+His first task was collecting audio-visual and laser range data for
+experiments on speaker diarization, cooperating with Theodoros
+Giannakopoulos in the AVISPIRE project. He then helped
+[Charalambos]({% link _portfolio/98_alumni.md %}#rossides)
+with his thesis project on navigation.
+<br/><br/>
+Sek also helped
+[Giorgos]({% link _portfolio/08_gstavrinos.md %}) with his
+thesis on *Racing Robot Path Planning*. This work was
+the basis for the *race robot* show that Sek was giving
+on Researchers' Nights and the NCSR School Visits programme
+until his retirement at the end of the 2016-17 school season.
 </td>
 </tr>
 
 <tr>
 <td markdown="span">
-**Lefteris-Argyris Karampas (2017)**
+**Kostis Nikolareas (2017)**
 </td>
 <td markdown="span">
-Lefteris worked at Roboskel as an intern during his studies on
-Informatics and Telecommunications, University of Athens.
+Kostis worked at Roboskel as an intern during his studies at the
+Department of Computer Engineering and Informatics, University of Patras.
+</td>
+</tr>
+
+<tr>
+<td markdown="span">
+![image]({{ site.baseurl }}/assets/faces/karampas.jpeg)
+<br/>
+**Lefteris-Argyris Karampas (2017)**
+<br/>
+<a href="https://www.linkedin.com/in/lefteris-karampas-2ab20b14a" title="Follow him on LinkedIn" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+</td>
+<td markdown="span">
+Lefteris worked at Roboskel as an intern during his studies at
+the Department of Informatics and Telecommunications, University
+of Athens. Lefteris worked together on
+[Mano's]({% link _portfolio/14_mano.md %}) motor control
+under
+[Maria's]({% link _portfolio/07_mdagiogl.md %}) supervision.
 </td>
 </tr>
 
@@ -165,9 +211,9 @@ Informatics and Telecommunications, University of Athens.
 <td markdown="span">
 **Eleftheria Kotsoni (2016)**
 <br/>
-<a href="https://github.com/ekotsoni" title="Follow her on GitHub">
+<a href="https://github.com/ekotsoni" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
-<a href="https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125" title="Follow her on LinkedIn">
+<a href="https://www.linkedin.com/in/eleftheria-kotsoni-39b18b125" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -182,9 +228,9 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <td markdown="span">
 **Elena Diamantidou (2016)**
 <br/>
-<a href="https://github.com/ElenaDiamantidou" title="Follow her on GitHub">
+<a href="https://github.com/ElenaDiamantidou" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
-<a href="https://www.linkedin.com/in/ediamantidou" title="Follow her on LinkedIn">
+<a href="https://www.linkedin.com/in/ediamantidou" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -199,10 +245,10 @@ the second version RoboMAE, the robot sensor data annotation tool.
 <td markdown="span">
 **Dimitrios Malios (2016)**
 <br/>
-<a href="https://github.com/dimimal" title="Follow him on GitHub">
+<a href="https://github.com/dimimal" title="Follow him on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
-<a href="https://www.linkedin.com/in/dimitris-mallios" title="Follow him on LinkedIn">
+<a href="https://www.linkedin.com/in/dimitris-mallios" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -229,6 +275,31 @@ and
 </td>
 </tr>
 
+<tr id="lydakis">
+<td markdown="span">
+![image]({{ site.baseurl }}/assets/faces/lydakis.jpeg)
+<br/>
+**Andreas Lydakis (2013-2015)**
+<br/>
+<a href="https://github.com/AndLydakis" title="Follow him on GitHub" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://gr.linkedin.com/in/andreaslydakis" title="Follow him on LinkedIn" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+</td>
+<td markdown="span">
+Andreas Lydakis graduated from the Computer Engineering & Informatics
+Dpt. of the University of Patras in 2013, and joined Roboskel
+shortly afterwards. Andreas worked the software stacks of both
+[Indigo]({% link _portfolio/02_indigo.md %}) and
+[Sek]({% link _portfolio/98_alumni.md %}#sek),
+and also carried out research on
+human-robot interaction.
+<br/><br/>
+In 2015, Andreas moved on to pursue an MSc at the University of
+New Hampshire, USA, and then a carrier in the robotics industry.
+</td>
+</tr>
+
 <tr>
 <td markdown="span">
 **Nikolaos Tavoularis (2015)**
@@ -247,7 +318,7 @@ and
 <td markdown="span">
 **Marinos Galiatsatos (2015)**
 <br/>
-<a href="https://www.linkedin.com/in/marinos-galiatsatos-3968b2147" title="Follow him on LinkedIn">
+<a href="https://www.linkedin.com/in/marinos-galiatsatos-3968b2147" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -273,7 +344,7 @@ During his studies, he worked at Roboskel as an intern.
 <br/>
 **Charalambos Rossides (2013-2014)**
 <br/>
-<a href="https://uk.linkedin.com/in/charalambos-rossides-31b808124" title="Follow him on LinkedIn">
+<a href="https://uk.linkedin.com/in/charalambos-rossides-31b808124" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -300,7 +371,7 @@ Control at the Technical University Twente, the Netherlands.
 ![image]({{ site.baseurl }}/assets/faces/sapountzi.jpeg)
 **Athanasia Sapountzi (2013-2014)**
 <br/>
-<a href="https://www.linkedin.com/in/athanasia-sapountzi-a29a9087" title="Follow her on LinkedIn">
+<a href="https://www.linkedin.com/in/athanasia-sapountzi-a29a9087" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -332,66 +403,13 @@ an intern.
 </td>
 </tr>
 
-<tr id="lydakis">
-<td markdown="span">
-![image]({{ site.baseurl }}/assets/faces/lydakis.jpeg)
-<br/>
-**Andreas Lydakis (2013-2015)**
-<br/>
-<a href="https://github.com/AndLydakis" title="Follow him on GitHub">
-  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
-<a href="https://gr.linkedin.com/in/andreaslydakis" title="Follow him on LinkedIn">
-  <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
-</td>
-<td markdown="span">
-Andreas Lydakis graduated from the Computer Engineering & Informatics
-Dpt. of the University of Patras in 2013, and joined Roboskel
-shortly afterwards. Andreas worked the software stacks of both
-[Indigo]({% link _portfolio/02_indigo.md %}) and
-[Sek]({% link _portfolio/98_alumni.md %}#sek),
-and also carried out research on
-human-robot interaction.
-<br/><br/>
-In 2015, Andreas moved on to pursue a PhD at the University of New
-Hampshire, USA.
-</td>
-</tr>
-
-<tr id="sek">
-<td markdown="span">
-![image]({{ site.baseurl }}/assets/faces/sek.jpeg)
-<br/>
-**Sek (2013-2017)**
-</td>
-<td markdown="span">
-Sek was the first full-time robotic member of Roboskel. He was a
-custom-made robot and his first day at the lab was 31 January 2013.
-<br/><br/>
-He started out running ROS Fuerte over Ubuntu Precise, later moving on
-to Hydra. The ROS nodes for his IMU and Roboteq motor controller were
-developed by [Andreas]({% link _portfolio/98_alumni.md %}#lydakis).
-His first task was collecting audio-visual and laser range data for
-experiments on speaker diarization, cooperating with Theodoros
-Giannakopoulos in the AVISPIRE project. He then helped
-[Charalambos]({% link _portfolio/98_alumni.md %}#rossides)
-with his thesis project on navigation.
-<br/><br/>
-Sek also helped
-[Giorgos]({% link _portfolio/08_gstavrinos.md %}) with his
-thesis on *Racing Robot Path Planning*. This work was
-the basis for the *race robot* show that Sek was giving
-on Researchers' Nights and the NCSR School Visits programme
-until his retirement in 2017.
-</td>
-</tr>
-
 <tr id="tvarv">
 <td markdown="span">
 ![image]({{ site.baseurl }}/assets/faces/tvarv.jpeg)
 <br/>
 **Theodoros Varvakoudas (2012)**
 <br/>
-<a href="https://uk.linkedin.com/in/theo-varvadoukas" title="Follow him on LinkedIn">
+<a href="https://uk.linkedin.com/in/theo-varvadoukas" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>
 </td>
 <td markdown="span">
@@ -417,7 +435,7 @@ to work in the industry.
 <br/>
 **Dimitris Bilidas (2011)**
 <br/>
-<a href="https://github.com/dbilid" title="Follow him on GitHub">
+<a href="https://github.com/dbilid" title="Follow him on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
 </a>
 </td>
