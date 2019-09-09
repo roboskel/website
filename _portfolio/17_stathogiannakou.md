@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matina Stathogiannakou
-permalink: /personnel/stathogiannakou
+permalink: /personnel/stathogiannakou.html
 img: assets/faces/stathogiannakou_framed.png
 tags: [personnel, human]
 ---
@@ -17,5 +17,5 @@ scanner and camera. After that she continued for her diploma thesis,
 Human Tracking Using Data From Laser Scanner And Camera, supervised by 
 Stasinos Konstantopoulos.
 
-<a href="https://github.com/stathogiannakou" title="Follow her on GitHub">
+<a href="https://github.com/stathogiannakou" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>

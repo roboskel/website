@@ -27,10 +27,9 @@ spaces.
 Her research interests vary from robotic applications for 
 Human-Robot Collaboration to Human Motor Control and Learning.
 
-<a href="https://github.com/mdagiogl" title="Follow her on GitHub">
-  <span class="fa-stack fa-lg"><i class="fa fa-github
-  fa-stack-1x"></i></span>
-<a href="https://bitbucket.com/mdagiogl" title="Follow her on Bitbucket">
+<a href="https://github.com/mdagiogl" title="Follow her on GitHub" target="_blank">
+  <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
+<a href="https://bitbucket.com/mdagiogl" title="Follow her on Bitbucket" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-bitbucket fa-stack-1x"></i></span>
-<a href="https://gr.linkedin.com/in/mariadagioglou" title="Follow her on LinkedIn">
+<a href="https://gr.linkedin.com/in/mariadagioglou" title="Follow her on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>

@@ -16,5 +16,5 @@ IEEE NTUA student branch. His fields of interests include machine
 learning, robotics and pattern recognition.
 
 
-<a href="https://linkedin.com/in/aristeidis-smarnakis" title="Follow him on LinkedIn">
+<a href="https://linkedin.com/in/aristeidis-smarnakis" title="Follow him on LinkedIn" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span></a>

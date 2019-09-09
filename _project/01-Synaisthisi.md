@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Synaisthisi: Intelligent data acquisition and processing networks
+title: "Synaisthisi: Intelligent data acquisition and processing networks"
 permalink: /project/synaisthisi.html
 img: "assets/img/projects/synaisthisi.png"
 tags: [projects, national projects, completed projects, IoT]
