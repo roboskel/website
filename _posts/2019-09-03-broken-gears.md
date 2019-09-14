@@ -3,7 +3,7 @@ layout: post
 title: 3D Printing Motor Gears
 feature-img: assets/posts/2019-09-03-gears/gear-original-and-print.jpeg
 thumbnail: assets/posts/2019-09-03-gears/gear-original-and-print.jpeg
-tags: [howto, rulah, hardware failure, 3d printing]
+tags: [howto, rulah, hardware failure]
 author-id: oikonomou
 date: 2019-09-03
 ---
@@ -19,15 +19,25 @@ gears.
 We took the following steps:
 
  * We opened all four motors to find the least-worn gear,
-   and scanned that gear.
+   and [scanned]({{ "assets/posts/2019-09-03-gears/scan.stl" | relative_url }}) it.
 
- * Using the scan as a staring point, we designed new gears in
-   Blender following the instructions in the tutorial
+ * We printed the scanned gear in resin, but both the quality of the
+   scan and the printing material proved inadequate and the resin
+   gears were crushed on our first test.
+
+![Gear designed in blender]({{ "assets/posts/2019-09-03-gears/gear.png" | relative_url}})
+
+ * We designed new gears
+   in Blender following the instructions in the tutorial
    [&quot;How to Model Geometrically Correct (Involute) Gears in Blender&quot;](https://www.youtube.com/watch?v=DqBOva04lcE)
    by [Otvinta](http://www.otvinta.com).
+   The the instructions is detailed and the only tricky bit is getting
+   the distances right so that the gear fits the motors.
+   You see the result in the image above and feel free to use our
+   [design]({{ "assets/posts/2019-09-03-gears/gear.stl" | relative_url }})
+   as your starting point, if you find it useful.
 
- * We first printed our gears in resin, but the resin gears
-   were crushed on our first test. So we went through
+ * We went through
    the list of materials and explanations provided in
    [this guide](https://3dinsider.com/3d-printing-materials)
    and selected ABS, the most commonly used plastic for automotive
