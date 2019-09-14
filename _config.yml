@@ -206,11 +206,11 @@ pagination:
 authors:
   stasinos:
     name: Stasinos Konstantopoulos
-    avatar: "assets/faces/konstant-reframed.png"
+    avatar: "assets/faces/konstant_framed.png"
     url: "https://github.com/stasinos"
   oikonomou:
     name: Katerina Oikonomou
-    avatar: "assets/faces/oikonomou-reframed.png"
+    avatar: "assets/faces/oikonomou_framed.png"
     url: "https://github.com/koikonomou"
 
 

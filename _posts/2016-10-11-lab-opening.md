@@ -18,7 +18,9 @@ single-room studio with a kitchen area and dining table and a living
 room area with couch, TV, and cupboards. At the other end is the
 working area: a lab bench for working on the robots and desks for the
 Roboskel group. The "living" area and the working area are connected,
-but clearly separated. The Roboskel Lab facilitates dataset collection
-and technology validation for robot scene understanding, focusing on
-activities of daily living. It offers a realistic living environment
-for collecting the data needed for the Radio action.
+but clearly separated.
+
+The Roboskel Lab facilitates dataset collection and technology
+validation for robot scene understanding, focusing on activities of
+daily living. It offers a realistic living environment for collecting
+the data needed for the Radio action.

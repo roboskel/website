@@ -2,7 +2,7 @@
 layout: post
 title: Indigo
 permalink: /personnel/indigo.html
-img: "assets/faces/indigo-reframed.jpeg"
+img: "assets/faces/indigo_framed.png"
 tags: [personnel, robot]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Katerina Oikonomou
 permalink: /personnel/oikonomou.html
-img: "assets/faces/oikonomou-reframed.png"
+img: "assets/faces/oikonomou_framed.png"
 tags: [personnel, human]
 ---
 
@@ -21,5 +21,5 @@ working on rugged terrain navigation while also attending
 the Robotics and Automation Systems MSc of the
 National Technical University of Athens.
 
-<a href="https://github.com/koikonomou" title="Follow her on GitHub">
+<a href="https://github.com/koikonomou" title="Follow her on GitHub" target="_blank">
   <span class="fa-stack fa-lg"><i class="fa fa-github fa-stack-1x"></i></span>
